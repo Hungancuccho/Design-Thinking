@@ -41,7 +41,7 @@ TOOL_LAYOUT = {
 
 # --- HÀM TẢI DỮ LIỆU ---
 
-@st.cache_data
+@st.cache
 def load_tool_data(filepath: str) -> dict:
     """Tải dữ liệu công cụ từ file JSON."""
     try:
