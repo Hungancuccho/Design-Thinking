@@ -1,0 +1,1227 @@
+{
+  "problem_statement": {
+    "title": "Problem statement",
+    "phase": "Understand",
+    "short": "Diễn đạt vấn đề cốt lõi trong 1 câu ngắn, tạo nền tảng cho ideation.",
+    "definition": "Problem statement là một câu ngắn gọn diễn đạt vấn đề cốt lõi, giúp nhóm và stakeholders hiểu chung thử thách cần giải quyết.",
+    "howto": [
+      "Đặt câu hỏi phân tích: Why? Who? When/Where? How?",
+      "Tổng hợp phát hiện, dùng dot-voting để chọn trọng tâm.",
+      "Viết khung “How might we...” để bắt đầu ideation."
+    ],
+    "tips": [
+      "Ngôn từ chính xác, tạo nhiều phiên bản và chỉnh sửa nhiều vòng."
+    ],
+    "example": "How might we define a consulting offering for Digital Transformation in Asia, considering local cultural needs?",
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "design_principles": {
+    "title": "Design principles",
+    "phase": "Understand",
+    "short": "Bộ nguyên tắc giúp định hướng quyết định và đảm bảo sự đồng thuận trong nhóm.",
+    "definition": "Design principles là bộ nguyên tắc/hướng dẫn giúp đội nhóm duy trì tư duy thống nhất xuyên suốt dự án.",
+    "howto": [
+      "Brainstorm nguyên tắc trên Post-it.",
+      "Phân loại theo kim tự tháp (general → specific).",
+      "Dot-voting để chọn tối đa 3 nguyên tắc mỗi tầng."
+    ],
+    "tips": [
+      "Bắt đầu bằng “Why” để xác định mục tiêu; treo poster nơi dễ thấy."
+    ],
+    "example": "Nhóm tạo danh sách 10 principles và treo poster trong studio.",
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "interview_for_empathy": {
+    "title": "Interview for empathy",
+    "phase": "Understand",
+    "short": "Phỏng vấn người dùng để hiểu nhu cầu, cảm xúc và hành vi.",
+    "definition": "Công cụ phỏng vấn giúp nhìn vấn đề từ góc nhìn người dùng, khai thác insight sâu.",
+    "howto": [
+      "Giới thiệu, giải thích mục tiêu, xin phép ghi âm.",
+      "Đặt câu hỏi mở (W/H).",
+      "Quan sát ngôn ngữ cơ thể, ghi chú, chuyển phát hiện thành journey map."
+    ],
+    "tips": [
+      "Xây dựng niềm tin, dùng ice-breaker, follow-up khi cần."
+    ],
+    "example": "Phỏng vấn người dùng về AI prototype để phát hiện khó khăn thao tác.",
+    "time": "medium",
+    "size_group": "solo"
+  },
+  "explorative_interview": {
+    "title": "Explorative interview",
+    "phase": "Understand",
+    "short": "Khám phá đời sống, giá trị và bối cảnh người dùng.",
+    "definition": "Dùng để khám phá nhu cầu ẩn giấu và hệ giá trị của người dùng.",
+    "howto": [
+      "Chuẩn bị interview guide (broad → zoom in).",
+      "Phỏng vấn ở bối cảnh quen thuộc, khuyến khích kể chuyện.",
+      "Chụp ảnh/take note khi được cho phép."
+    ],
+    "tips": [
+      "Dùng hình ảnh để kích hoạt câu chuyện; luôn cởi mở."
+    ],
+    "example": "Phỏng vấn CEO châu Á về thách thức văn hoá trong chuyển đổi số.",
+    "time": "medium",
+    "size_group": "solo"
+  },
+  "ask_5x_why": {
+    "title": "Ask 5x why",
+    "phase": "Understand",
+    "short": "Hỏi “Tại sao?” ít nhất 5 lần để tìm nguyên nhân gốc rễ.",
+    "definition": "Đào sâu nguyên nhân để tránh giải quyết triệu chứng.",
+    "howto": [
+      "Mô tả vấn đề cụ thể.",
+      "Hỏi “Why?” liên tiếp, mỗi lần dựa trên câu trả lời trước.",
+      "Dừng khi chạm gốc rễ hoặc chuyển nhánh."
+    ],
+    "tips": [
+      "Không dừng sớm; dùng reverse questions để kiểm chứng."
+    ],
+    "example": "Xử lý phát biểu mâu thuẫn của user trong quá trình test.",
+    "time": "short",
+    "size_group": "small (2-5)"
+  },
+  "5w_h": {
+    "title": "5 WH questions",
+    "phase": "Understand",
+    "short": "Bảng câu hỏi Who/What/When/Where/Why/How để khám phá có cấu trúc.",
+    "definition": "Tạo template 6 cột để hệ thống hoá các câu hỏi và insight.",
+    "howto": [
+      "Chuẩn bị template 6 cột.",
+      "Brainstorm câu hỏi mở cho từng cột.",
+      "Tổng hợp thành mind map và fact-check tại hiện trường."
+    ],
+    "tips": [
+      "Hỏi nhiều vòng; dùng câu hỏi phủ định để mở rộng góc nhìn."
+    ],
+    "example": "Chuẩn bị >40 câu hỏi cho decision makers về chuyển đổi số.",
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "jobs_to_be_done": {
+    "title": "Jobs to be done (JTBD)",
+    "phase": "Understand",
+    "short": "Hiểu job người dùng cần hoàn thành (When I…, I want…, so I can…).",
+    "definition": "Tập trung vào job mà người dùng “thuê” sản phẩm để hoàn thành.",
+    "howto": [
+      "Ghi task theo mẫu When-I / I-want / so-I-can.",
+      "Phân loại functional / emotional / social.",
+      "Ưu tiên theo pains & gains."
+    ],
+    "tips": [
+      "Không gộp tasks; tìm hidden emotional jobs."
+    ],
+    "example": "When I work from home, I want to access all data…",
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "extreme_lead_users": {
+    "title": "Extreme users / lead users",
+    "phase": "Understand",
+    "short": "Làm việc với người dùng cực đoan/tiên phong để thu insight đột phá.",
+    "definition": "Extreme/lead users tiết lộ nhu cầu và workaround độc đáo.",
+    "howto": [
+      "Xác định, phỏng vấn, shadowing.",
+      "Co-create giả thuyết giải pháp.",
+      "Kiểm chứng với người dùng phổ thông."
+    ],
+    "tips": [
+      "Duy trì kết nối lâu dài để cập nhật nhu cầu tiên phong."
+    ],
+    "example": "Gamer VR tiết lộ nhu cầu thiết kế môi trường ảo.",
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "stakeholder_map": {
+    "title": "Stakeholder map",
+    "phase": "Understand",
+    "short": "Sơ đồ các bên liên quan và mức ảnh hưởng.",
+    "definition": "Trực quan hóa stakeholders để xác định ảnh hưởng, liên minh và xung đột.",
+    "howto": [
+      "Liệt kê stakeholders → vẽ sơ đồ → phân tích ảnh hưởng → chiến lược tương tác."
+    ],
+    "tips": [
+      "Cập nhật thường xuyên; dùng ký hiệu trực quan."
+    ],
+    "example": "Dùng biểu tượng để mô tả cụm lợi ích/xung đột.",
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "emotional_response_cards": {
+    "title": "Emotional response cards",
+    "phase": "Understand",
+    "short": "Thẻ cảm xúc giúp user diễn đạt cảm xúc thực về trải nghiệm.",
+    "definition": "User chọn thẻ để kích hoạt ký ức/cảm xúc; probing bằng “Why?”.",
+    "howto": [
+      "Chuẩn bị 50 thẻ; user chọn 3; hỏi “Tại sao” cho từng thẻ; ghi chép."
+    ],
+    "tips": [
+      "Dùng chung với usability test; kết hợp 5x why."
+    ],
+    "example": "User chọn “difficult” khi mô phỏng cuộc họp hành lang hẹp.",
+    "time": "short",
+    "size_group": "solo"
+  },
+  "empathy_map": {
+    "title": "Empathy map",
+    "phase": "Observe",
+    "short": "Bản đồ thấu cảm See/Hear/Think&Feel/Say&Do + Pains/Gains để hiểu sâu cảm xúc & nhu cầu ẩn.",
+    "definition": "Mục tiêu: Hiểu khách hàng/người dùng tốt hơn, cảm nhận cảm xúc của họ và đồng cảm với hành động, suy nghĩ của họ. Đây là công cụ phân tích nhóm mục tiêu dựa trên sự thấu cảm — ghi lại suy nghĩ, cảm xúc, thái độ và hành động. So với Customer Journey Map hay Persona, Empathy Map tập trung nhiều hơn vào trạng thái cảm xúc và nhu cầu ẩn sau hành động.",
+    "howto": [
+      "Ghi chép khi phỏng vấn/quan sát người dùng và điền trực tiếp vào template.",
+      "See (Nhìn thấy): Người dùng thấy gì trong môi trường? Ai/điều gì ảnh hưởng họ?",
+      "Hear (Nghe): Người dùng nghe được gì? Ai tác động/ảnh hưởng?",
+      "Think & Feel (Nghĩ & Cảm nhận): Người dùng nghĩ gì? Cảm xúc, lo lắng, khao khát?",
+      "Say & Do (Nói & Làm): Người dùng phát ngôn gì? Hành động cụ thể nào thể hiện suy nghĩ?",
+      "Pains: Khó khăn, thách thức lớn nhất của họ là gì?",
+      "Gains: Lợi ích, mong muốn, cơ hội mà họ kỳ vọng?"
+    ],
+    "synthesis": [
+      "Chuyển các ghi chép thành insight.",
+      "Xác định nhu cầu thực (verbs/activities) thay vì chỉ ghi nhận giải pháp (nouns).",
+      "Xem xét mâu thuẫn giữa lời nói và hành động (say–do gap)."
+    ],
+    "applications": [
+      "Làm cơ sở xây dựng Persona và Value Proposition Canvas.",
+      "Xác định Jobs-to-be-done (JTBD) dựa trên pains và gains.",
+      "Hình thành nền tảng để định nghĩa vấn đề và tìm giải pháp sáng tạo."
+    ],
+    "tips": [
+      "Tạo cơ sở cho Value Proposition.",
+      "Ghi lại các phát hiện ngay khi diễn ra.",
+      "Tập trung vào các giá trị nhân văn.",
+      "Tập trung vào các khía cạnh See/Hear/Think&Feel/Say&Do/Pains/Gains.",
+      "Tìm kiếm mâu thuẫn (người dùng nói một kiểu nhưng hành động khác)."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "persona": {
+    "title": "Persona / user profile",
+    "phase": "Observe",
+    "short": "Nhân vật giả định đại diện nhóm khách hàng điển hình để định hướng thiết kế & chiến lược.",
+    "definition": "Định nghĩa: Persona (User Profile/Customer Persona/Buyer Persona) là một nhân vật giả định được xây dựng để đại diện cho nhóm người dùng hoặc khách hàng điển hình.",
+    "goals": [
+      "Hiểu rõ nhu cầu, mục tiêu, hành vi, giá trị, động lực, nỗi đau (pains) và lợi ích (gains) của người dùng.",
+      "Tạo hình ảnh cụ thể, sống động để đội ngũ dễ hình dung và đồng cảm.",
+      "Dùng persona để định hướng thiết kế sản phẩm/dịch vụ và chiến lược phù hợp với khách hàng mục tiêu."
+    ],
+    "howtoBlocks": [
+      {
+        "title": "Persona/User profile (chuẩn)",
+        "items": [
+          "Mô tả persona (tên, tuổi, giới tính, nghề, bối cảnh).",
+          "Xác định công việc/nhiệm vụ (jobs to be done).",
+          "Mô tả các trường hợp sử dụng (use cases).",
+          "Ghi nhận các khó khăn, nỗi đau (pains).",
+          "Xác định lợi ích, mong đợi (gains).",
+          "Vẽ phác thảo hoặc thêm hình ảnh minh họa.",
+          "Bổ sung yếu tố ảnh hưởng (influencers) và xu hướng (trends)."
+        ]
+      },
+      {
+        "title": "Freestyle Persona",
+        "items": [
+          "Vẽ mô hình người thật kích thước lớn (life-size).",
+          "Điền thông tin nhân khẩu học, tên, tuổi.",
+          "Bổ sung pains, gains, hành vi, cảm xúc.",
+          "Cho persona một cái tên cụ thể.",
+          "Dán ảnh/hình minh họa từ tạp chí/báo để sinh động."
+        ]
+      },
+      {
+        "title": "Future Persona",
+        "items": [
+          "Mô tả khách hàng hiện tại.",
+          "Xem xét họ trong quá khứ (10–12 năm trước).",
+          "Mô tả khách hàng hiện tại ở hiện tại.",
+          "So sánh với khách hàng tương lai ở cùng độ tuổi.",
+          "Dự báo thay đổi, xu hướng, lối sống trong 5–10 năm tới.",
+          "Tổng hợp insight để định hình sản phẩm/dịch vụ tương lai."
+        ]
+      }
+    ],
+    "tips": [
+      "Be realistic: Tránh persona chung chung/rập khuôn — cần chi tiết, gần gũi, thực tế.",
+      "Continuously improve: Cập nhật khi có dữ liệu mới từ phỏng vấn, prototype test, quan sát.",
+      "Use quotations: Thêm trích dẫn/lời nói thật của khách hàng để tăng tính chân thực.",
+      "Future-thinking: Với dự án đổi mới dài hạn, xây dựng future persona để dự báo nhu cầu.",
+      "Freestyle approach: Tạo persona sáng tạo bằng tranh vẽ/hình ảnh/màu sắc để tăng đồng cảm."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "customer_journey": {
+    "title": "Customer Journey Map",
+    "phase": "Observe",
+    "short": "Trực quan hóa toàn bộ hành trình/điểm chạm, hành động, suy nghĩ, cảm xúc theo từng giai đoạn.",
+    "definition": "Customer Journey Map là công cụ trực quan hóa toàn bộ hành trình mà khách hàng trải nghiệm khi tương tác với công ty, sản phẩm, hoặc dịch vụ. Nó thể hiện hành động, suy nghĩ, cảm xúc và các điểm chạm (touchpoints) của khách hàng theo từng giai đoạn.",
+    "goals": [
+      "Hiểu sâu sắc hành vi và cảm xúc của khách hàng.",
+      "Xác định các “moment of misery” (điểm gây khó chịu).",
+      "Tìm ra khoảng trống trong trải nghiệm để cải thiện.",
+      "Thiết kế trải nghiệm khách hàng mới, độc đáo và hiệu quả hơn.",
+      "Hỗ trợ xây dựng service blueprint hoặc phát triển sản phẩm/dịch vụ mới."
+    ],
+    "howto": [
+      "Bước 1: Chọn persona đại diện để dùng trong bản đồ hành trình.",
+      "Bước 2: Xác định scenario hoặc nhiệm vụ khách hàng muốn thực hiện.",
+      "Bước 3: Chia hành trình thành các giai đoạn Before – During – After.",
+      "Bước 4: Liệt kê các hành động, suy nghĩ, cảm xúc trong từng giai đoạn.",
+      "Bước 5: Bổ sung các yếu tố hỗ trợ như goals, expectations, difficulties.",
+      "Bước 6: Vẽ đường cong cảm xúc (Emotion Curve) để thấy trải nghiệm tích cực/tiêu cực.",
+      "Bước 7: Ghi chú opportunities cải thiện và phân công trách nhiệm.",
+      "Bước 8: Thảo luận, xác định insight, đề xuất hành động cải thiện."
+    ],
+    "tips": [
+      "Jennifer Sutherland (South Africa, Independent Consultant): Hãy tư duy như một nhà báo điều tra — đặt câu hỏi để đi sâu vào cảm xúc khách hàng.",
+      "Ngữ cảnh và tình huống (context) rất quan trọng — cùng một sản phẩm nhưng khác kịch bản thì hành trình khác nhau.",
+      "“Journeys” có thể dùng để phân tích hiện tại, thiết kế dịch vụ mới, hoặc cải thiện quy trình cũ.",
+      "Có thể dùng bản đồ hành trình như prototype đầu tiên để kiểm chứng ý tưởng cải thiện trải nghiệm.",
+      "Thiết kế tương tác giữa digital và physical để tránh tạo ra trải nghiệm tiêu cực."
+    ],
+    "time": "long",
+    "size_group": "large (6+)"
+  },
+  "aeiou": {
+    "title": "AEIOU framework",
+    "phase": "Observe",
+    "short": "Khung quan sát hiện trường phân loại theo 5 yếu tố: Activities, Environment, Interactions, Objects, Users.",
+    "definition": "AEIOU là một framework quan sát do Rick Robinson, Ilya Prokopoff, John Cain và Julie Pokorny phát triển (1991). Nó phân loại quan sát theo 5 yếu tố: Activities (hoạt động), Environment (môi trường), Interactions (tương tác), Objects (đồ vật), Users (người dùng).",
+    "goals": [
+      "Tạo cấu trúc rõ ràng cho quan sát hiện trường.",
+      "Giúp nhóm đặt các câu hỏi W+H (Who, What, When, Where, Why, How) để khám phá sâu hành vi người dùng.",
+      "Thu thập insight chưa được công khai và hỗ trợ nhóm thiếu kinh nghiệm.",
+      "Truy xuất ý tưởng mới và làm cơ sở cho giai đoạn “Understand” & “Observe”."
+    ],
+    "howto": [
+      "Bước 1: Bắt đầu nghiên cứu → xác định người dùng ở đâu, thời điểm nào, cách tiếp cận.",
+      "Bước 2: Hiện diện trong ngữ cảnh của người dùng để quan sát trực tiếp.",
+      "Bước 3: Sử dụng bảng AEIOU để ghi chú:",
+      "  • Activities: Người dùng làm gì? Họ thực hiện nhiệm vụ gì?",
+      "  • Environment: Không gian/môi trường có đặc điểm gì?",
+      "  • Interactions: Người dùng tương tác với hệ thống, người khác hay đối tượng nào?",
+      "  • Objects: Công cụ, thiết bị, vật dụng nào được sử dụng?",
+      "  • Users: Ai tham gia? Họ đóng vai trò gì? Ai ảnh hưởng đến họ?",
+      "Bước 4: Ghi chú bằng phiếu, hình ảnh, video.",
+      "Bước 5: Sau quan sát → gom nhóm, phân loại theo các khối AEIOU, rút ra insight."
+    ],
+    "tips": [
+      "Steffi Kieffer (Design Thinking Coach, Germany): AEIOU giống như “kho báu” — luôn có những điều bất ngờ được phát hiện.",
+      "AEIOU không phải khuôn mẫu cứng, có thể điều chỉnh cho phù hợp vấn đề.",
+      "Nên tạo sub-categories cho các tình huống phức tạp.",
+      "Các yếu tố AEIOU thường gắn kết nhau, cần xem xét mối liên hệ.",
+      "Hãy “Show, don’t tell”: dùng hình ảnh, sketch, storytelling để làm rõ insight."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "analysis_question_builder": {
+    "title": "Analysis questions builder",
+    "phase": "Observe",
+    "short": "Xây dựng câu hỏi phân tích dựa trên các yếu tố ảnh hưởng để định hướng thu thập & xử lý dữ liệu.",
+    "definition": "Analysis Questions Builder là công cụ trong Design Thinking giúp xác định và đặt ra các câu hỏi phân tích quan trọng dựa trên những yếu tố ảnh hưởng (factors of influence) liên quan đến sản phẩm, dịch vụ hoặc quy trình.",
+    "goals": [
+      "Xác định yếu tố ảnh hưởng cốt lõi, hạn chế bỏ sót khi phân tích.",
+      "Tạo cấu trúc rõ ràng cho quá trình phân tích dữ liệu.",
+      "Kích thích tư duy sáng tạo, tránh bị bó hẹp vào chi tiết kỹ thuật.",
+      "Nâng cao hiệu quả phân tích dữ liệu lớn bằng cách tập trung vào đúng câu hỏi."
+    ],
+    "howto": [
+      "Xác định trung tâm (center): Chọn đối tượng phân tích (sản phẩm, dịch vụ, quy trình).",
+      "Xác định yếu tố ảnh hưởng chính: Thu thập dữ liệu sẵn có hoặc brainstorm để nhận diện yếu tố quan trọng (ví dụ: hiệu suất, tiêu thụ điện, UX...).",
+      "Đặt câu hỏi W+H: Với từng yếu tố, đặt các câu hỏi Who/What/Where/When/Why/How để làm rõ vấn đề.",
+      "Phân tích dữ liệu: Liên kết câu hỏi với dữ liệu hiện có hoặc cần thu thập để rút ra insight.",
+      "Tổng hợp & định hướng: Tổng hợp insight, xác định hướng cải thiện hoặc phát triển mới."
+    ],
+    "tips": [
+      "Dùng tư duy Design Thinking: coi việc lập bản đồ câu hỏi là một hoạt động sáng tạo, không chỉ phân tích khô khan.",
+      "Đa ngành (interdisciplinary): rất hữu ích với nhóm nhiều lĩnh vực — giảm rủi ro bỏ sót yếu tố.",
+      "Đừng lo lắng về dữ liệu khó thu thập: khi biết mình cần gì, thường sẽ tìm được nguồn phù hợp.",
+      "Kết hợp hybrid model (Design Thinking + Data Analytics): kết nối trực giác con người với dữ liệu số để nâng giá trị insight."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "peers_observing_peers": {
+    "title": "Peers observing peers",
+    "phase": "Observe",
+    "short": "Đồng đẳng quan sát đồng đẳng trong bối cảnh tự nhiên để thấy hành vi thật, shortcuts/workaround & insight ẩn.",
+    "definition": "Peers observing peers là phương pháp để hiểu hành vi và nhu cầu của người dùng trong môi trường “tự nhiên”, không bị tác động bởi nhà nghiên cứu. Người quan sát là đồng nghiệp, bạn học, hoặc người trong cùng ngữ cảnh với đối tượng được nghiên cứu.",
+    "goals": [
+      "Khám phá cách mọi người thực sự làm việc và tương tác trong đời sống hàng ngày.",
+      "Tìm ra các “con đường không chính thức” trong tổ chức/nhóm (shortcuts, workaround).",
+      "Thu thập insight sâu hơn khi phỏng vấn trực tiếp không khả thi."
+    ],
+    "howto": [
+      "Xác định mục tiêu quan sát: định nghĩa rõ cái gì cần quan sát, ai sẽ quan sát, và mục đích là gì.",
+      "Thực hiện quan sát: người quan sát đồng nghiệp ghi nhận chính xác những gì họ thấy (không diễn giải).",
+      "Ghi chú & so sánh: các peer cùng chia sẻ ghi chú để phát hiện sự khác biệt trong quan sát.",
+      "Phân biệt quan sát & diễn giải: chỉ ở bước này mới diễn giải hành vi, tìm hiểu lý do và bối cảnh.",
+      "Thảo luận & kết luận: tổng hợp insight, nhận diện thói quen, chi tiết định lượng (ví dụ thời gian thao tác), và tìm ra yếu tố bất ngờ.",
+      "Thời lượng: 60–240 phút (tuỳ phạm vi).",
+      "Nhóm quan sát: 3–7 người; tối ưu là mỗi peer quan sát một người khác."
+    ],
+    "tips": [
+      "Định nghĩa rõ ràng trọng tâm: cái gì, ai, ở đâu cần quan sát.",
+      "Đào tạo quan sát viên: phân biệt giữa ghi nhận thực tế và suy đoán.",
+      "Không chỉ quan sát mà còn đo lường: ví dụ bao lâu một hành động diễn ra.",
+      "Chú ý workaround & shortcuts: người dùng thường sáng tạo cách làm khác thiết kế ban đầu.",
+      "Tự đặt mình vào vị trí người dùng: làm thử hành động như họ để cảm nhận thực sự."
+    ],
+    "time": "long",
+    "size_group": "large (6+)"
+  },
+  "trend_analysis": {
+    "title": "Trend analysis",
+    "phase": "Observe",
+    "short": "Nhận diện & định lượng xu hướng, tìm nguyên nhân/ảnh hưởng và liên hệ tới dự án/giải pháp.",
+    "definition": "Trend Analysis là công cụ nhằm nhận diện và định lượng xu hướng, xác định nguyên nhân, ảnh hưởng và mối liên hệ của xu hướng tới dự án/giải pháp.",
+    "goals": [
+      "Khám phá cơ hội và rủi ro.",
+      "Cung cấp bối cảnh xã hội, kinh tế, công nghệ có giá trị.",
+      "Làm cơ sở cho phát triển sản phẩm/dịch vụ hoặc ý tưởng mới.",
+      "Giúp nhóm có cái nhìn sâu sắc, toàn diện và tránh tiếp cận quá đơn giản/chủ quan."
+    ],
+    "howto": [
+      "Xác định sản phẩm/dịch vụ/vấn đề → ghi trên Post-it.",
+      "Dùng dây màu làm megatrends → đại diện cho các xu hướng lớn (số hoá, đô thị hóa, bền vững…).",
+      "Tìm sự giao thoa/chồng lấn xu hướng — mô phỏng như bản đồ tàu điện để xác định vị trí xu hướng cắt nhau.",
+      "Tạo affinity chart (bản đồ nhóm xu hướng) → gom các yếu tố giao nhau, hình thành đặc điểm và hướng đi cụ thể."
+    ],
+    "tips": [
+      "Xác thực bằng dữ liệu thống kê: kết hợp dữ liệu định lượng để tránh chỉ dựa trên cảm tính.",
+      "Trực quan hoá để giảm phức tạp: duy trì bộ megatrends cập nhật, minh hoạ bằng hình ảnh/sơ đồ.",
+      "Sử dụng triệt để insights: áp dụng xu hướng vào mô hình kinh doanh, sản phẩm, dịch vụ.",
+      "Affinity chart hữu ích để đặt câu hỏi đúng về hành vi khách hàng hoặc công nghệ mới.",
+      "Nhận diện mâu thuẫn: Trend Analysis cũng chỉ ra các xu hướng đối nghịch để cân nhắc."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "how_might_we": {
+    "title": "“How might we...” question",
+    "phase": "Point of view",
+    "short": "Công cụ tạo câu hỏi HMW giúp đội ngũ sáng tạo tìm ra các giải pháp sáng tạo cho vấn đề.",
+    "definition": "Công cụ “How might we...” question được sử dụng để giúp đội ngũ sáng tạo định hình các câu hỏi phù hợp nhằm tìm ra các giải pháp sáng tạo cho một vấn đề cụ thể. Câu hỏi HMW khuyến khích sự tư duy hướng tới khả năng và cách tiếp cận sáng tạo cho giải pháp, giúp giải quyết vấn đề bằng cách tập trung vào người dùng và những vấn đề mà họ đang gặp phải.",
+    "goals": [
+      "Chuyển đổi các nhu cầu được xác định thành thử thách thiết kế thực tế.",
+      "Xác định phạm vi và mục tiêu của quá trình phát triển ý tưởng trong giai đoạn Ideate.",
+      "Hướng tới việc xây dựng các câu hỏi cụ thể, rõ ràng và có thể giải quyết được trong quá trình phát triển ý tưởng."
+    ],
+    "howto": [
+      "Bước 1: Phản ánh kết quả từ các bước trước trong quá trình “Understand” và “Observe” để tổng hợp thông tin và các vấn đề.",
+      "Bước 2: Xác định những gì đội ngũ cần giải quyết và các thông tin bổ sung cần thiết để xây dựng câu hỏi HMW.",
+      "Bước 3: Khuyến khích đội ngũ tạo ra nhiều câu hỏi HMW. Câu hỏi cần theo cấu trúc “How might we...”, với động từ (như thiết kế), danh từ (như sản phẩm đầu tư), và người dùng cụ thể (ví dụ: người dùng là người cao tuổi, người trẻ...).",
+      "Bước 4: Đọc to câu hỏi HMW và hỏi xem liệu câu hỏi đó có truyền cảm hứng cho đội ngũ tìm ra các giải pháp hay không. Nếu câu hỏi quá hẹp hoặc quá rộng, sẽ phải điều chỉnh lại.",
+      "Bước 5: Câu hỏi HMW sẽ là nền tảng cho việc phát triển ý tưởng trong bước tiếp theo."
+    ],
+    "tips": [
+      "Không có đúng hay sai trong định nghĩa câu hỏi.",
+      "Nhận biết đối tượng mà giải pháp được tìm kiếm cho họ.",
+      "Hãy mạnh dạn với những tuyên bố của bạn, đừng lo ngại về việc câu hỏi quá táo bạo."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "storytelling": {
+    "title": "Storytelling",
+    "phase": "Point of view",
+    "short": "Tóm tắt và truyền đạt các phát hiện, giúp thông tin trở nên sinh động và dễ tiếp cận.",
+    "definition": "Storytelling là một công cụ giúp tóm tắt các phát hiện và thông tin chi tiết từ các cuộc tương tác, đặc biệt là với người dùng hoặc các bên liên quan. Công cụ này giúp cấu trúc và truyền đạt các ý tưởng một cách rõ ràng đến đội nhóm hoặc các bên liên quan khác, giúp dữ liệu, phản hồi và thông tin trở nên sống động.",
+    "goals": [
+      "Chia sẻ kiến thức và thông tin thu thập được một cách hiệu quả.",
+      "Tạo sự đồng cảm và khuyến khích người khác tham gia vào quá trình thiết kế.",
+      "Tạo ra các câu chuyện hấp dẫn, giúp thông tin dễ tiếp cận và dễ hiểu."
+    ],
+    "howto": [
+      "Bước 1: In mẫu hoặc vẽ cấu trúc trên bảng trắng/bảng flipchart. Đặc biệt hữu ích khi truyền đạt kết quả từ các giai đoạn 'hiểu' và 'quan sát'.",
+      "Bước 2: Khuyến khích mỗi thành viên hoàn thành một dòng (ví dụ: mỗi người được phỏng vấn), tóm tắt những điểm nổi bật và đặc điểm đặc biệt của người đó hoặc người dùng (cột 1). Thêm những trích dẫn quan trọng từ người đó.",
+      "Bước 3: Giải thích kết quả với nhóm và xác định ý nghĩa của chúng.",
+      "Bước 4: Vẽ một kết luận cùng với nhóm và tóm tắt các phát hiện quan trọng từ cuộc phỏng vấn. Soạn thảo câu chuyện dưới dạng bullet points, bảng phân cảnh, hoặc video ngắn."
+    ],
+    "tips": [
+      "Storytelling là công cụ đa năng! Thử nghiệm với các loại câu chuyện khác nhau để làm cho câu chuyện thêm hấp dẫn.",
+      "Thử sử dụng hình ảnh, video hoặc mô hình trực quan để hỗ trợ câu chuyện.",
+      "Tập trung vào cảm xúc và trải nghiệm người dùng để tăng tính đồng cảm.",
+      "Sử dụng trích dẫn thật từ người dùng để câu chuyện thêm phần chân thực."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "context_mapping": {
+    "title": "Context Mapping",
+    "phase": "Point of view",
+    "short": "Xây dựng bản đồ bối cảnh để hiểu rõ môi trường xung quanh vấn đề từ quan điểm người dùng.",
+    "definition": "Context Mapping là công cụ giúp xây dựng bản đồ bối cảnh (context map) từ các phát hiện thu thập được, giúp phân tích và hiểu rõ môi trường xung quanh một vấn đề, đặc biệt là từ quan điểm của người dùng. Công cụ này giúp nhận diện và phân tích các yếu tố tác động đến một vấn đề, từ đó đưa ra các giải pháp thích hợp. Nó giúp các nhóm thiết kế nhận thức được bối cảnh của người dùng và các yếu tố ảnh hưởng đến quyết định của họ.",
+    "goals": [
+      "Xây dựng bản đồ bối cảnh từ các phát hiện và thông tin thu thập được.",
+      "Hiểu rõ môi trường xung quanh vấn đề từ góc nhìn của người dùng.",
+      "Nhận diện và phân tích các yếu tố tác động đến quyết định và hành vi của người dùng."
+    ],
+    "howto": [
+      "Để có một bản đồ bối cảnh tốt, cần thu thập nhiều phát hiện. Bạn nên ra ngoài càng nhiều càng tốt để quan sát và hiểu rõ hơn.",
+      "Không gì có thể thay thế việc nhìn nhận thực tế từ góc nhìn của người dùng. Quan sát người dùng và môi trường của họ. Các câu hỏi điển hình có thể là: Người dùng làm gì? Họ làm việc ở đâu? Họ làm việc với ai? Tác động của hoạt động của họ lên môi trường là gì? Ai là người hỗ trợ họ? Có công cụ hoặc tài nguyên chung nào không?",
+      "Chụp ảnh môi trường và người dùng để làm tài liệu tham khảo.",
+      "Xác định các lĩnh vực cần tập trung vào. Sử dụng trí tưởng tượng của bạn để quyết định phạm vi bối cảnh rộng hay hẹp.",
+      "Xác định các loại bối cảnh tương ứng, ví dụ: xu hướng, nền kinh tế, địa lý, hoặc các lĩnh vực công nghệ.",
+      "Nếu cần, hãy sắp xếp lại các loại bối cảnh này để tìm ra các kết nối mới và thu thập thêm thông tin.",
+      "Điền các thông tin thu thập được vào mẫu bối cảnh. Cố tình để lại một hoặc hai ô trống để khuyến khích nhóm bổ sung các loại bối cảnh mà họ cho là quan trọng."
+    ],
+    "tips": [
+      "Hãy đặt mình vào vị trí của người dùng để cảm nhận trải nghiệm của họ.",
+      "Bối cảnh thay đổi nhận thức về trải nghiệm của người dùng.",
+      "Bất kỳ giả thuyết nào cũng có thể hữu ích, đừng ngại thử nghiệm."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "define_success": {
+    "title": "Define Success",
+    "phase": "Point of view",
+    "short": "Xác định các tiêu chí thành công để đảm bảo sự đồng thuận và mục tiêu rõ ràng cho dự án.",
+    "definition": "Xác định thành công là công cụ trong Tư duy thiết kế được sử dụng để xác định những tiêu chí thành công cho dự án hoặc sản phẩm. Công cụ này giúp nhóm xác định rõ ràng các yếu tố cần đạt được để xem dự án là thành công, từ đó có thể điều chỉnh chiến lược và các quyết định rõ ràng trong suốt quá trình thiết kế.",
+    "goals": [
+      "Đảm bảo sự thống nhất trong nhóm về các tiêu chí thành công cần đạt được.",
+      "Hiểu rõ các yêu cầu của tổ chức, người quản lý, người dùng và các bên liên quan khác.",
+      "Đơn giản hóa danh sách và ưu tiên các lựa chọn trong suốt dự án.",
+      "Tạo cơ sở để đo lường KPI nếu dự án cần."
+    ],
+    "howto": [
+      "Sử dụng Post-its cho công cụ xác định thành công để mỗi thành viên chia sẻ suy nghĩ của mình.",
+      "Chuẩn bị danh sách các yếu tố liên quan đến vấn đề (ví dụ: thành công nội bộ và ngoại bộ có nghĩa là gì).",
+      "Khuyến khích tất cả các thành viên tham gia viết câu trả lời cho các câu hỏi lên Post-its. Thu thập các ý tưởng đồng thời hoặc từng cá nhân.",
+      "Chia sẻ suy nghĩ của mọi người trước, thảo luận và thu gọn các yếu tố của thành công. Sau đó, chọn các yếu tố cốt lõi và bỏ phiếu chọn các lĩnh vực chính.",
+      "Lý tưởng nhất là mời các quyết định quan trọng (quản lý, người sáng lập, đối tác) tham gia để đảm bảo không mất thời gian và tiền bạc."
+    ],
+    "tips": [
+      "Hãy lưu tâm khi xác định thành công — những tiêu chí này sẽ ảnh hưởng đến suốt quá trình thiết kế.",
+      "Tìm kiếm câu chuyện thành công từ các dự án hoặc sản phẩm trước để làm gương mẫu."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "vision_cone": {
+    "title": "Vision Cone",
+    "phase": "Point of view",
+    "short": "Định hình và mở rộng tầm nhìn về dự án hoặc sản phẩm từ giai đoạn đầu để khám phá cơ hội mới và tránh giả định ban đầu.",
+    "definition": "Vision Cone là một công cụ trong Design Thinking giúp nhóm định hình và mở rộng tầm nhìn về một dự án hoặc sản phẩm từ giai đoạn đầu. Công cụ này giúp xác định và phân tích các yếu tố ảnh hưởng đến dự án, đồng thời mở rộng phạm vi suy nghĩ của nhóm để khám phá các cơ hội mới và tránh bị giới hạn bởi những giả định ban đầu. Vision Cone cho phép nhóm hiểu rõ các khả năng, phạm vi, và rủi ro của sản phẩm hoặc giải pháp trong tương lai, đồng thời duy trì sự linh hoạt trong quá trình phát triển.",
+    "goals": [
+      "Cảm nhận sự thay đổi theo thời gian.",
+      "Suy nghĩ theo các giai đoạn và phân đoạn thời gian (ví dụ: từ quá khứ đến tương lai).",
+      "Phác thảo các tương lai có thể xảy ra, bao gồm những tương lai khả thi, ưu tiên hoặc phi lý.",
+      "Liên kết tầm nhìn với các bước tiếp theo cụ thể.",
+      "Chỉ ra tiềm năng của tất cả các khả năng, ví dụ: sự phát triển công nghệ và xã hội."
+    ],
+    "howto": [
+      "Bước 1: Xác định một chủ đề phù hợp với thử thách hiện tại (ví dụ: di chuyển, sức khỏe). Vẽ hai hình nón nối nhau và gán nhãn cho chúng là PAST (Quá khứ), NOW (Hiện tại), và FUTURE (Tương lai).",
+      "Bước 2: Bắt đầu với NOW và mô tả tình trạng hiện tại của dự án, trạng thái hiện tại của nghệ thuật và nhận thức hiện tại trong xã hội (ví dụ: lái xe bán tự động).",
+      "Bước 3: Tập trung vào PAST. Thêm các kết quả nghiên cứu đã thực hiện cho đến nay cùng với những thay đổi công nghệ và xã hội quan trọng. Cố gắng chính xác nhất có thể khi đề cập đến ngày tháng và liên kết các sự kiện có liên quan (ví dụ: những năm 1960, xe ô tô tự lái bằng dải từ tính ở Hoa Kỳ).",
+      "Bước 4: Tập trung vào FUTURE. Ghi lại tất cả các phát hiện liên quan đến một tương lai giả tưởng. Không ai biết xác suất mà chúng sẽ xảy ra (ví dụ: xe ô tô bay tự động).",
+      "Bước 5: Xác định các kịch bản có thể xảy ra trong tương lai từ các phát hiện và đặt cho chúng những tên dễ nhớ để kể câu chuyện.",
+      "Bước 6: Chọn một tương lai 'mong muốn' trong bối cảnh của dự án. Làm việc ngược từ tương lai đã xác định và lùi lại để xác định các bước cần thiết sẽ phải thực hiện NOW để đạt được tương lai mong muốn.",
+      "Bước 7: Rút ra các bước tiếp theo cụ thể từ đó."
+    ],
+    "tips": [
+      "Tương lai dựa trên trí tưởng tượng của chúng ta! Hãy để trí tưởng tượng tự do phát triển.",
+      "Mọi thứ đều liên quan và được tích hợp vào một hệ thống — hãy nhìn nhận toàn bộ bức tranh.",
+      "Thiết kế viễn tưởng chính là câu chuyện tuyệt vời nhất của tương lai!"
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "critical_items_diagram": {
+    "title": "Critical Items Diagram",
+    "phase": "Point of view",
+    "short": "Xác định và phân loại các yếu tố quan trọng (critical items) để tập trung vào các yếu tố cốt lõi giải quyết vấn đề.",
+    "definition": "Critical Items Diagram là một công cụ trong Design Thinking dùng để xác định và phân loại các yếu tố quan trọng (critical items) trong quá trình thiết kế, giúp nhóm tập trung vào những yếu tố cốt lõi để giải quyết vấn đề. Công cụ này giúp làm rõ những trải nghiệm và chức năng quan trọng mà người dùng cần có, từ đó định hướng các bước tiếp theo trong quy trình phát triển sản phẩm hoặc giải pháp.",
+    "goals": [
+      "Đánh giá kết quả từ các giai đoạn “understand” và “observe” và lọc ra các yếu tố quan trọng.",
+      "Chuẩn bị cho các giai đoạn “ideate” và “prototype” để thiết lập một vị trí khởi đầu tốt.",
+      "Giúp đội ngũ xác định những yếu tố cần thiết cho dự án và đạt được sự đồng thuận về chúng.",
+      "Rút ra các câu hỏi “How might we” (HMW) khác nhau."
+    ],
+    "howto": [
+      "Xác định các yếu tố quan trọng của vấn đề cùng với đội ngũ và từ đó đưa ra các câu hỏi “How might we...”.",
+      "Bước 1: Khi bắt đầu bước này, hãy suy nghĩ về câu hỏi: 'Điều gì là quan trọng để giải pháp cho vấn đề thành công?' Điều này dựa trên các phát hiện từ các giai đoạn 'hiểu' và 'quan sát'.",
+      "Bước 2: Phác thảo một ‘critical items diagram’ trên bảng trắng hoặc giấy lớn, thảo luận về những trải nghiệm người dùng cần có và các chức năng quan trọng đối với người dùng.",
+      "Bước 3: Mỗi thành viên trong đội viết ra tám yếu tố quan trọng đối với họ trên các Post-its.",
+      "Bước 4: Mỗi thành viên đặt tên cho bốn trải nghiệm và bốn chức năng, một trong số đó tập trung vào kỳ vọng hoàn toàn mới hoặc kỳ vọng trong tương lai.",
+      "Bước 5: Tổng hợp kết quả và đạt được sự đồng thuận trong nhóm về tám yếu tố quan trọng. Dựa trên đó, xác định các câu hỏi “How might we...” thú vị để bắt đầu giai đoạn 'ideate'."
+    ],
+    "tips": [
+      "Như thường lệ trong tư duy thiết kế, chúng ta làm việc theo từng bước.",
+      "Đừng sa đà vào những cuộc thảo luận dài dòng, hãy tập trung vào kết quả.",
+      "Một lần nữa: Hãy trình bày, đừng kể lể. Cung cấp các giải pháp cụ thể."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "brainstorming": {
+    "title": "Brainstorming",
+    "phase": "Ideate",
+    "short": "Công cụ sáng tạo nhóm giúp tạo ra nhiều ý tưởng mới trong thời gian ngắn.",
+    "definition": "Brainstorming là một công cụ sáng tạo nhóm được sử dụng để tạo ra nhiều ý tưởng mới trong một khoảng thời gian ngắn. Công cụ này khuyến khích sự tham gia của tất cả thành viên trong nhóm, không có giới hạn về sáng tạo, và không có phê phán đối với các ý tưởng trong suốt quá trình. Mục tiêu của brainstorming là thu thập một lượng lớn ý tưởng để giải quyết vấn đề, từ đó chọn lọc và phát triển các ý tưởng tốt nhất cho giải pháp cuối cùng.",
+    "goals": [
+      "Tạo ra nhiều ý tưởng mà đội ngũ đưa ra một cách tự phát.",
+      "Sử dụng toàn bộ tiềm năng sáng tạo của nhóm Design Thinking.",
+      "Có một số lượng lớn các phương án trong thời gian ngắn.",
+      "Thu được cái nhìn đa ngành về một vấn đề, đại diện cho các kỹ năng và kiến thức khác nhau.",
+      "Thu thập ý tưởng và quan điểm từ một nhóm đa dạng.",
+      "Kích thích sự nhiệt huyết và tạo ra động lực."
+    ],
+    "howto": [
+      "Bước 1: Chuẩn bị một câu hỏi HMW rõ ràng cho buổi brainstorming, ví dụ, dưới dạng 'How might we...' hoặc 'What possibilities are there...'.",
+      "Bước 2: Lặp lại các quy tắc brainstorming trước buổi thảo luận. Động viên nhóm đưa ra nhiều ý tưởng hơn và xây dựng dựa trên ý tưởng của người khác. Đảm bảo tất cả đều được nghe và tất cả ý tưởng đều được ghi lại. Mỗi Post-it chỉ ghi một ý tưởng và phải rõ ràng, dễ đọc. Có thể vẽ những bức tranh nhỏ trên các Post-it thay vì chỉ dùng từ ngữ.",
+      "Bước 3: Cụm và đánh giá các ý tưởng cùng với nhóm vào các khoảng thời gian đều đặn.",
+      "Bước 4: Đánh giá xem có cần thêm sự sáng tạo hay không (ví dụ: để có thêm những ý tưởng táo bạo hơn) hoặc bắt đầu một phiên brainstorming trong các lĩnh vực cần nhiều ý tưởng hơn nói chung."
+    ],
+    "variants": [
+      "Brainstorming có cấu trúc: Tất cả các thành viên viết ý tưởng lên Post-it. Sau một khoảng thời gian, một người dán ý tưởng lên bảng flipchart và giải thích chúng. Nếu có Post-it tương tự, dán cạnh nhau. Trong quá trình giải thích của các thành viên, những ý tưởng mới được tạo ra và ghi lại trên các Post-it mới. Kết quả là một tập hợp các ý tưởng đã được cụm lại, có thể được đánh giá sau."
+    ],
+    "tips": [
+      "Mục tiêu không phải là một ý tưởng hoàn hảo, mà là rất nhiều ý tưởng.",
+      "Hợp tác vượt qua ranh giới, khuyến khích tất cả các ý tưởng, kể cả những ý tưởng có vẻ điên rồ."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "2x2_matrix": {
+    "title": "2x2 Matrix",
+    "phase": "Ideate",
+    "short": "Công cụ phân tích chiến lược giúp đánh giá và ưu tiên các lựa chọn dựa trên hai yếu tố chính.",
+    "definition": "2x2 Matrix là một công cụ phân tích chiến lược được sử dụng để đánh giá và ưu tiên các lựa chọn dựa trên hai yếu tố chính. Ma trận này chia các yếu tố cần phân tích thành bốn ô (quadrants), mỗi ô đại diện cho một kết hợp khác nhau của các yếu tố. Công cụ này giúp nhóm hoặc tổ chức dễ dàng phân loại và đưa ra quyết định về các ý tưởng, dự án, hoặc cơ hội dựa trên các tiêu chí quan trọng.",
+    "goals": [
+      "Xác định nhanh chóng những ý tưởng nên được theo đuổi và những ý tưởng nên bị loại bỏ.",
+      "Có cái nhìn tổng quan ban đầu về những ý tưởng đã có độ trưởng thành nhất định.",
+      "Ưu tiên các ý tưởng dựa trên các yếu tố như đổi mới chiến lược, cơ hội thị trường và các tiêu chí khác.",
+      "Sử dụng công cụ này mỗi khi cần đưa ra quyết định."
+    ],
+    "howto": [
+      "Bước 1: Vẽ mẫu và chỉ định các trục theo yêu cầu. Sử dụng các thuộc tính như 'cao' và 'thấp' hoặc các thuộc tính đối nghịch. Mẹo: Khi đánh giá ý tưởng, tập trung vào lợi ích cho người dùng và tính khả thi, sử dụng các tiêu chí có thể đo lường được và cụ thể cho phân tích cơ hội.",
+      "Bước 2: Định vị các ý tưởng bằng cách đọc to các ý tưởng trong nhóm. Phân loại rộng và câu hỏi về việc ý tưởng nên được đặt ở khu vực nào trong ma trận. Đặt ý tưởng theo mối quan hệ với các ý tưởng khác. Chú ý đến ý kiến của nhóm và cố gắng tìm sự đồng thuận.",
+      "Bước 3: Chọn các ý tưởng để tiếp tục xử lý. Nếu nhiều ý tưởng ở khu vực phía trên bên phải, chọn 3 ý tưởng hàng đầu. Nếu ít hơn 3 ý tưởng ở khu vực đó, kiểm tra các lĩnh vực phát triển cho những ý tưởng có thể thực hiện được. Kiểm tra các khu vực trống để tìm cơ hội tiềm năng cho các ý tưởng tiếp theo."
+    ],
+    "tips": [
+      "Rất có giá trị trong hoạch định chiến lược và xác định các yếu tố quyết định trong quá trình thiết kế.",
+      "Sử dụng tư duy hệ thống để xem xét các yếu tố ảnh hưởng lẫn nhau và tìm ra mối liên hệ giữa chúng."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "dot_voting": {
+    "title": "Dot Voting",
+    "phase": "Ideate",
+    "short": "Phương pháp đơn giản để nhóm đưa ra quyết định và ưu tiên các ý tưởng hoặc lựa chọn.",
+    "definition": "Dot Voting (hay còn gọi là Voting by Dots) là một phương pháp đơn giản và nhanh chóng để nhóm hoặc tổ chức đưa ra quyết định và ưu tiên các ý tưởng, lựa chọn hoặc vấn đề. Mỗi người tham gia sẽ được cấp một số lượng phiếu (thường là dấu chấm hoặc chấm tròn) để bỏ vào các lựa chọn mà họ cho là quan trọng hoặc có giá trị nhất.",
+    "goals": [
+      "Ra quyết định chung cùng với đội ngũ.",
+      "Hạn chế việc lựa chọn, tức là đơn giản hóa và ưu tiên.",
+      "Ra quyết định nhanh chóng và tránh tình trạng 'phân tích quá mức'.",
+      "Giải quyết bất đồng trong nhóm và tránh các trò chơi quyền lực.",
+      "Tích hợp ý kiến của tất cả các thành viên trong quá trình ra quyết định.",
+      "Tập trung vào những ý tưởng tốt nhất và cơ hội thị trường."
+    ],
+    "howto": [
+      "Bước 1: Làm rõ các tiêu chí trước khi bỏ phiếu. Ví dụ các tiêu chí: Tính phù hợp nhất với mục tiêu dài hạn, Sự hài lòng của khách hàng/người dùng, Hỗ trợ tầm nhìn, Cơ hội lớn nhất để tạo ra lợi thế cạnh tranh, Tuân thủ thời hạn, Tác động lớn nhất đến sự hài lòng của khách hàng.",
+      "Bước 2: Đặt các Post-it chứa ý tưởng lên tường hoặc bảng trắng sao cho tất cả mọi người đều có thể nhìn thấy. Cung cấp cho mỗi người tham gia một số phiếu (thường là từ 3-5 dấu chấm) và yêu cầu họ chọn lựa. Mỗi người sẽ bỏ phiếu riêng tư vào Post-it mà họ cho là đáp ứng tốt nhất các tiêu chí. Các thành viên có thể chọn đặt nhiều phiếu vào một Post-it hoặc phân phát phiếu cho các ý tưởng khác nhau.",
+      "Bước 3: Sắp xếp lại và nhóm các ý tưởng có nhiều dấu chấm nhất. Ra quyết định minh bạch dựa trên các ưu tiên này, sau đó xác định các bước tiếp theo."
+    ],
+    "tips": [
+      "Hãy để những người tham gia trình bày ý tưởng của họ trước khi bỏ phiếu.",
+      "Nếu số lượng chấm bằng nhau, hãy tổ chức một cuộc thảo luận thêm để quyết định lựa chọn cuối cùng.",
+      "Sử dụng dấu màu thay thế cho chấm keo để phân biệt các nhóm ý tưởng.",
+      "Giới hạn số lượng lựa chọn để tránh sự phân tán quá nhiều phiếu.",
+      "Tránh hiệu ứng đám đông, mỗi người cần đánh giá độc lập.",
+      "Tạo một 'bãi đậu xe' cho ý tưởng, nơi những ý tưởng chưa được ưu tiên vẫn có thể được tham khảo sau này.",
+      "Bình chọn của đám đông giúp đưa ra quyết định nhanh chóng, nhưng phải đảm bảo tính minh bạch.",
+      "Sử dụng mã màu hoặc bản đồ nhiệt để trực quan hóa sự phân bổ phiếu."
+    ],
+    "time": "short",
+    "size_group": "large (6+)"
+  },
+  "brainwriting": {
+    "title": "Brainwriting (6-3-5 Method)",
+    "phase": "Ideate",
+    "short": "Công cụ sáng tạo nhóm giúp phát triển ý tưởng mà không cần thảo luận trực tiếp.",
+    "definition": "Brainwriting (còn được biết đến với tên gọi 6-3-5 Method) là một công cụ sáng tạo nhóm được sử dụng để phát triển ý tưởng trong một khoảng thời gian ngắn mà không cần phải thảo luận trực tiếp. Thay vì nói ra các ý tưởng như trong phương pháp brainstorming, mỗi người tham gia sẽ viết xuống ý tưởng của mình và sau đó chuyển cho người khác tiếp tục phát triển. Phương pháp này giúp giảm bớt sự chi phối của những ý kiến mạnh mẽ và khuyến khích tất cả các thành viên đóng góp đều đặn.",
+    "goals": [
+      "Tạo ra các ý tưởng mới hoặc phát triển thêm các ý tưởng hiện có và ghi lại chúng một cách đơn giản.",
+      "Một cách có cấu trúc, giúp các thành viên chưa có kinh nghiệm trong workshop làm quen với phương pháp brainwriting dễ học và các quy tắc của brainstorming.",
+      "Thu thập tiềm năng sáng tạo của những người ít nói trong các tình huống nhóm mở bằng cách cho phép họ làm việc trong không gian yên tĩnh và riêng tư.",
+      "Khuyến khích việc tạo ra những ý tưởng độc đáo thông qua việc tách biệt rõ ràng giữa giai đoạn sáng tạo ý tưởng và giai đoạn đánh giá ý tưởng."
+    ],
+    "howto": [
+      "Bước 1: Chia thành các nhóm 6 người và giải thích vấn đề.",
+      "Bước 2: Cung cấp cho mỗi người một tờ giấy có lưới gồm ba cột và sáu hàng (tổng cộng 18 ô) hoặc yêu cầu các thành viên tự vẽ lưới.",
+      "Biến thể: Dùng tờ giấy với 6 cột để phát triển 6 ý tưởng và 6 hàng (tổng cộng 36 ô); cách này cho phép phát triển các ý tưởng hoàn toàn mới.",
+      "Bước 3: Các thành viên viết ba ý tưởng trong hàng đầu tiên của tờ giấy trong một khoảng thời gian xác định (3-5 phút). Toàn bộ quá trình diễn ra mà không có lời nói.",
+      "Biến thể: Ý tưởng có thể được viết trên Post-it thay vì trên tờ giấy.",
+      "Bước 4: Khi hết thời gian, tờ giấy được chuyển theo chiều kim đồng hồ cho thành viên tiếp theo trong nhóm.",
+      "Bước 5: Cho các thành viên thời gian để xem lại những ý tưởng đã được viết. Sau đó, yêu cầu các thành viên hoàn thành hàng tiếp theo trên tờ giấy với những ý tưởng mới, vẫn trong khoảng thời gian đã định. Lý tưởng nhất là các ý tưởng hiện có được phát triển thêm. Các ý tưởng có thể (nhưng không cần) xây dựng hoặc bổ sung cho những ý tưởng của người khác.",
+      "Bước 6: Quá trình chuyển và hoàn thiện tờ giấy được lặp lại cho đến khi tất cả các hàng, hoặc các ô, được điền đầy đủ.",
+      "Bước 7: Nhóm cụm và đánh giá các ý tưởng, sau đó thống nhất các bước tiếp theo."
+    ],
+    "tips": [
+      "Phát triển những câu hỏi có sức mạnh để khuyến khích sự sáng tạo.",
+      "Giữ sự tập trung của bạn trong suốt quá trình.",
+      "Hiển thị, đừng nói! Mọi ý tưởng đều cần được ghi lại và hiển thị để nhóm có thể tiếp cận.",
+      "Phát triển ý tưởng từ các yếu tố có sẵn, không cần phải sáng tạo từ đầu.",
+      "Chọn những ý tưởng tốt nhất để tiếp tục phát triển trong các bước tiếp theo."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "special_brainstorming": {
+    "title": "Special Brainstorming",
+    "phase": "Ideate",
+    "short": "Phương pháp sáng tạo nhóm giúp tạo ra ý tưởng đột phá thông qua các kỹ thuật đặc biệt.",
+    "definition": "Special Brainstorming là một phương pháp sáng tạo nhóm được thiết kế để tạo ra những ý tưởng đột phá và mới mẻ thông qua việc áp dụng các kỹ thuật đặc biệt, thay vì chỉ đơn giản là thảo luận tự do như trong brainstorming truyền thống. Các kỹ thuật này có thể bao gồm các phương pháp như negative brainstorming, figuring storming, bodystorming, hoặc những biến thể khác nhằm tạo ra những ý tưởng khác biệt và giúp nhóm nghĩ ngoài khuôn khổ thông thường.",
+    "goals": [
+      "Tạo ra một số lượng lớn ý tưởng trong một khoảng thời gian giới hạn.",
+      "Khuyến khích sự trao đổi lẫn nhau và lắng nghe tích cực giữa các thành viên trong nhóm để xây dựng dựa trên những ý tưởng đã thu thập được.",
+      "Áp dụng các góc nhìn khác nhau và nhìn nhận vấn đề từ các phương diện khác nhau bằng cách sử dụng các phương pháp khác nhau.",
+      "Tăng cường sự sáng tạo theo nhiều cách, ví dụ, thông qua brainstorming tiêu cực, figuring storming, hoặc bodystorming."
+    ],
+    "howto": [
+      "Trình bày 3 kỹ thuật brainstorming đặc biệt khác nhau:",
+      "Negative Brainstorming: Tập trung vào những gì có thể làm vấn đề trở nên tồi tệ hơn, thay vì tìm giải pháp. Ví dụ: làm sao để tăng ùn tắc giao thông thay vì giảm thiểu.",
+      "Figuring Storming: Tưởng tượng cách những người khác sẽ giải quyết vấn đề. Câu hỏi đặt ra là: 'X sẽ giải quyết vấn đề này như thế nào?' (VD: Albert Einstein, tổng thống, hoặc các persona khác).",
+      "Bodystorming: Đặt người thử nghiệm vào tình huống cụ thể và mô phỏng lại kịch bản để trải nghiệm cảm giác thực tế, từ đó rút ra những ý tưởng mới. Ví dụ: thoa Vaseline lên kính mắt để cảm nhận thế giới qua đôi mắt của người cao tuổi."
+    ],
+    "tips": [
+      "Tạo môi trường sáng tạo, nơi mọi ý tưởng đều được chấp nhận.",
+      "Giới hạn thời gian để giữ sự tập trung và khuyến khích sự sáng tạo.",
+      "Tránh mọi phán đoán trong suốt buổi động não để tránh làm giảm động lực sáng tạo.",
+      "Áp dụng phương pháp này để giải quyết các vấn đề phức tạp hoặc trừu tượng, giúp nhóm nhìn nhận vấn đề từ góc nhìn mới."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "analogies_benchmarking": {
+    "title": "Analogies & Benchmarking as Inspiration",
+    "phase": "Ideate",
+    "short": "Phương pháp so sánh và tham khảo chuẩn mực ngành để tìm kiếm cảm hứng và giải pháp sáng tạo.",
+    "definition": "Analogies & Benchmarking as Inspiration là một phương pháp trong Design Thinking sử dụng các phép so sánh (analogies) và việc tham khảo các chuẩn mực ngành (benchmarking) để tìm kiếm cảm hứng và giải pháp cho vấn đề đang gặp phải. Phương pháp này khuyến khích nhóm hoặc tổ chức tìm kiếm các giải pháp đã được giải quyết thành công trong các lĩnh vực khác, hoặc sử dụng các chuẩn mực trong ngành để cải tiến và đưa ra giải pháp sáng tạo.",
+    "goals": [
+      "Tạo ra những ý tưởng mang lại hiệu ứng 'Wow!'.",
+      "Giải thích các ý tưởng và các vấn đề phức tạp một cách dễ hiểu bằng cách sử dụng các phép so sánh.",
+      "Tìm nguồn cảm hứng bằng cách so sánh các vấn đề và giải pháp từ một lĩnh vực khác với vấn đề của chúng ta.",
+      "Tích hợp các quá trình tư duy hỗ trợ cần thiết cho các vấn đề mở và kém cấu trúc (hay còn gọi là các vấn đề mơ hồ và phức tạp).",
+      "Khơi dậy sự sáng tạo tối đa kết hợp với việc sử dụng sketch notes."
+    ],
+    "howto": [
+      "Bước 1: Liệt kê các trải nghiệm quan trọng hoặc các PAIN lớn của tuyên bố vấn đề, ví dụ, trong trường hợp giày dép, PAIN có thể là 'thấp kém về mặt địa vị.'",
+      "Bước 2: Sử dụng các phương pháp brainstorming hoặc brainwriting để tìm kiếm các kịch bản, hệ thống, địa điểm, hoặc vật dụng cũng mang lại PAINS nhưng đã được giải quyết. Ví dụ, trong trường hợp này, PAIN của 'địa vị' đã được giải quyết thành công trong ngành ô tô, và PAIN của 'không thoải mái' đã được giải quyết trong trường hợp của một chiếc sofa.",
+      "Để tìm kiếm các phép so sánh, hãy đặt các câu hỏi như sau: Các ngành khác đã làm gì? Thiên nhiên giải quyết vấn đề này như thế nào? Tại sao đây không phải là vấn đề ở các quốc gia khác?",
+      "Bước 3: Tiến hành phỏng vấn với các chuyên gia, những người hiểu rõ các lĩnh vực, kịch bản, hệ thống, địa điểm, hoặc vật dụng có thể so sánh. Tạo một 'bảng cảm hứng từ các phép so sánh' và đưa ra các phát hiện mới.",
+      "Bước 4: Liệt kê các giải pháp, ví dụ, cách mà 'địa vị' trong ngành ô tô được giải quyết qua 'tạp chí phong cách sống cao cấp'.",
+      "Bước 5: Sau đó, chuyển giao giải pháp từ phép so sánh sang vấn đề gốc. Một số giải pháp từ phép so sánh có thể được chuyển giao gần như 1:1; các giải pháp khác yêu cầu sự sáng tạo hơn khi áp dụng."
+    ],
+    "tips": [
+      "Tập trung vào những trải nghiệm và nỗi đau quan trọng mà người dùng gặp phải.",
+      "Cũng hãy xem xét những ngành nghề và khái niệm vô lý – chúng có thể đem lại ý tưởng đột phá.",
+      "Nếu không tìm thấy gì, đừng ngần ngại tìm kiếm qua Google.",
+      "Luyện tập hàng ngày để rèn luyện trí óc và tăng cường khả năng sáng tạo.",
+      "Được phép sao chép từ người khác – hãy học hỏi những giải pháp đã thành công và áp dụng chúng cho dự án của bạn.",
+      "Sử dụng phương pháp này một cách tự nhiên và thường xuyên để nuôi dưỡng sự sáng tạo."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "nabc": {
+    "title": "NABC",
+    "phase": "Ideate",
+    "short": "Công cụ phân tích giúp mô tả và phân tích một giải pháp hoặc ý tưởng dựa trên bốn yếu tố chính: Need (Nhu cầu), Approach (Phương pháp), Benefit (Lợi ích), và Competition (Cạnh tranh).",
+    "definition": "NABC là một công cụ trong Design Thinking được sử dụng để mô tả và phân tích một giải pháp hoặc ý tưởng dựa trên bốn yếu tố chính: Need (Nhu cầu), Approach (Phương pháp), Benefit (Lợi ích), và Competition (Cạnh tranh). Công cụ này giúp nhóm xác định rõ ràng giá trị và sự khác biệt của giải pháp so với các đối thủ hoặc lựa chọn hiện có, từ đó tối ưu hóa chiến lược phát triển sản phẩm hoặc dịch vụ.",
+    "goals": [
+      "Ghi lại nhanh chóng cốt lõi của một ý tưởng, khái niệm, hoặc prototype.",
+      "Đảm bảo rằng sự tập trung luôn vào người dùng/khách hàng bằng cách bắt đầu với câu hỏi về vấn đề của khách hàng, tiếp theo là kiểm tra kỹ lưỡng nhu cầu của khách hàng.",
+      "Xem xét một ý tưởng dưới bốn khía cạnh khác nhau: nhu cầu (vấn đề), phương pháp (giải pháp, cam kết hiệu suất), lợi ích và sự cạnh tranh (các lựa chọn thay thế trên thị trường).",
+      "Trình bày một ý tưởng trong giai đoạn đầu và thu thập phản hồi quan trọng.",
+      "So sánh các ý tưởng/khái niệm khác nhau."
+    ],
+    "howto": [
+      "Bước 1: Vẽ một biểu đồ NABC hoặc sử dụng mẫu có sẵn.",
+      "Bước 2: Bắt đầu với N là nhu cầu (vấn đề) và mô tả: Vấn đề mà khách hàng gặp phải; Khách hàng điển hình có vấn đề này; Tình huống thường gặp trong cuộc sống mà vấn đề xuất hiện; Nhu cầu phát sinh từ vấn đề đó.",
+      "Bước 3: Tiếp tục với A là phương pháp (giải pháp) và giải thích: Cách giải quyết vấn đề, tức là phương pháp giải quyết/ cam kết hiệu suất là gì; Sản phẩm, dịch vụ, hoặc quy trình được sử dụng; Mô hình kinh doanh và cách kiếm tiền.",
+      "Bước 4: Tiến hành với B là lợi ích và diễn giải dưới cả hai khía cạnh chất lượng và số lượng: Lợi ích cho khách hàng; Lợi ích cho bạn/doanh nghiệp của bạn.",
+      "Bước 5: Thêm C là cạnh tranh, tức là các lựa chọn thay thế và đối thủ hiện tại và tương lai. Ngoài ra, liệt kê các điểm bán hàng độc đáo của giải pháp."
+    ],
+    "tips": [
+      "Để hỗ trợ các mô tả trong NABC, luôn sử dụng hình ảnh trực quan, phác thảo và vẽ minh họa.",
+      "Storytelling thường rất hữu ích để truyền đạt các nội dung từ NABC.",
+      "Không nhất thiết phải tuân thủ biểu đồ NABC trong một buổi thuyết trình. Nếu sử dụng PowerPoint, ví dụ, các phần có thể được trình bày lần lượt (mỗi phần trên một slide).",
+      "Không chỉ ý tưởng mà cả prototypes cũng có thể được trình bày nhanh chóng theo cách này.",
+      "Khi vấn đề đã được mô tả và giải pháp đã được xác định, chúng tôi sẽ cố tình tìm kiếm các giải pháp khác nhau, đặc biệt là khi chúng tôi đang tìm kiếm những thay đổi mang tính cách mạng hơn."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "blue_ocean": {
+    "title": "Blue Ocean Tool & Buyer Utility Map",
+    "phase": "Ideate",
+    "short": "Công cụ giúp khám phá thị trường mới chưa khai thác và tối đa hóa giá trị cho khách hàng bằng cách sử dụng các chiến lược khác biệt.",
+    "definition": "Blue Ocean Tool & Buyer Utility Map là hai công cụ chiến lược giúp tạo ra các thị trường mới và chưa khai thác, đồng thời tối đa hóa giá trị cho khách hàng. Blue Ocean Tool giúp xác định cơ hội phát triển ngoài các thị trường cạnh tranh gay gắt, trong khi Buyer Utility Map phân tích các yếu tố tiện ích mà khách hàng mong muốn trong suốt hành trình mua và sử dụng sản phẩm, từ đó tạo ra giá trị và cải tiến trải nghiệm khách hàng.",
+    "goals": [
+      "Khám phá các cơ hội thị trường chưa được khai thác.",
+      "Cung cấp các đề xuất khác biệt và mới dựa trên nhu cầu của người dùng.",
+      "Điều chỉnh chiến lược để đáp ứng nhu cầu thị trường mới bằng cách hiểu rõ lợi thế cạnh tranh.",
+      "Xây dựng tầm nhìn đúng đắn cho thử thách thiết kế hoặc một lộ trình triển khai từng bước cùng các cơ chế kiểm soát."
+    ],
+    "howto": [
+      "Bước 1: Bắt đầu với “bốn hành động chiến lược” (tăng, giảm, loại bỏ và tạo ra). Mục tiêu là xác định các yếu tố chiến lược, những yếu tố mà đối thủ cạnh tranh hoặc toàn bộ ngành công nghiệp tập trung vào đối với một sản phẩm hoặc dịch vụ (ví dụ: năng suất, giá cả, bảo hành, v.v.).",
+      "Bước 2: Xác định yếu tố nào có thể được tăng, giảm, loại bỏ, hoặc tạo ra mới. Lựa chọn những yếu tố quan trọng nhất.",
+      "Bước 3: Sắp xếp các yếu tố quan trọng này vào ma trận tiện ích người mua. Đầu tiên, xác định các yếu tố quyết định quan trọng đối với người dùng/khách hàng về những gì được cung cấp hiện nay.",
+      "Bước 4: Suy nghĩ về các yếu tố có thể giảm hoặc loại bỏ. Đây là phần sáng tạo. Tiến hành một buổi brainstorming với nhóm để tìm ra những yếu tố chưa được khai thác. Để làm điều này, cần xác định các phạm vi giá trị bổ sung mà dịch vụ hoặc sản phẩm có thể bao phủ.",
+      "Bước 5: Định nghĩa giá trị \"blue ocean\" mới từ kết quả đạt được."
+    ],
+    "tips": [
+      "Các hoạt động của khách hàng có thể được mở rộng theo yêu cầu. Ví dụ: Làm thế nào người dùng nhận biết về sản phẩm? Họ có so sánh các sản phẩm trước khi mua không? Họ thích loại hình giao hàng nào? Thông tin về cách xử lý việc trả hàng có ảnh hưởng không? Các chi phí tiếp theo có phải là vấn đề không? Các bình luận trên mạng xã hội có ảnh hưởng đến quá trình mua hàng không? Trong việc sử dụng sản phẩm, các yếu tố như sự đơn giản, tiện lợi, và việc giảm thiểu rủi ro có thể rất quan trọng."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "exploration_map": {
+    "title": "Exploration Map",
+    "phase": "Prototype",
+    "short": "Công cụ giúp nhóm theo dõi và hình dung quá trình thí nghiệm, bao gồm các thí nghiệm đã được thực hiện và các khu vực còn lại để thử nghiệm.",
+    "definition": "Exploration Map là một công cụ trong Design Thinking giúp nhóm theo dõi và hình dung quá trình thí nghiệm, bao gồm các thí nghiệm đã được thực hiện và các khu vực còn lại để thử nghiệm. Công cụ này cung cấp cái nhìn tổng quan về các thí nghiệm, cho phép nhóm nắm bắt kỳ vọng và kết quả thực tế, đồng thời giúp xác định các khoảng trống trong việc khám phá không gian vấn đề. Bản đồ khám phá giúp đội ngũ nhận diện những yếu tố chưa được giải quyết và thúc đẩy thảo luận, tạo cơ hội cho việc lập kế hoạch các thí nghiệm tiếp theo.",
+    "goals": [
+      "Hiển thị rõ các loại thí nghiệm đã được thực hiện và các prototype đã được hiện thực hóa.",
+      "Có cái nhìn tổng quan nhanh về các thí nghiệm hoặc prototype có thể thực hiện tiếp theo.",
+      "Ghi lại sự khác biệt giữa kết quả dự kiến và kết quả thực tế của một thí nghiệm.",
+      "Đạt được sự hiểu biết chung về các thí nghiệm đã được thực hiện cho đến nay."
+    ],
+    "howto": [
+      "Bước 1: Nhập các thí nghiệm đã thực hiện. Chúng có thể cần được điều chỉnh vị trí. Mỗi thí nghiệm được ghi lại trên bản đồ khám phá – tốt nhất là với tên gọi và hình ảnh (ví dụ: của prototype và quá trình thử nghiệm).",
+      "Bước 2: Thảo luận về việc định vị thí nghiệm trong nhóm. Liệu chúng ta đã thực sự ra khỏi vùng an toàn chưa? Dựa trên các thí nghiệm trước và các cuộc khám phá trước đó, mục tiêu cho một thí nghiệm mới có thể được xác định.",
+      "Bước 3: Sau khi prototype được xây dựng và kỳ vọng về kết quả được xác định, chúng cũng được nhập vào bản đồ khám phá và được định vị tương ứng.",
+      "Bước 4: Sau các thử nghiệm, phản hồi của người dùng và kết quả thử nghiệm cũng có thể được ghi lại. Việc thảo luận kỹ lưỡng về phản hồi có thể thay đổi vị trí của thí nghiệm trên bản đồ khám phá."
+    ],
+    "tips": [
+      "Vào đầu hành trình, đích đến chưa rõ. Đảm bảo toàn bộ nhóm cốt lõi hiểu chung về quá trình thí nghiệm.",
+      "Bổ sung bản đồ khám phá sau mỗi giai đoạn thí nghiệm. Các nhóm có thể lấy thông tin từ kết quả của nhóm khác.",
+      "Khi điều chỉnh thí nghiệm, ghi lại kỳ vọng ban đầu. Sự khác biệt phản ánh sự hiểu nhầm về nhu cầu.",
+      "Giữ hai bản đồ khám phá song song: một cho kỳ vọng kết quả và một cho phản hồi từ thí nghiệm.",
+      "Đặt bản đồ khám phá ở nơi tất cả thành viên nhóm có thể nhìn thấy.",
+      "Bản đồ giúp phát hiện khoảng trống trong việc khám phá vấn đề trong suốt chu trình thiết kế.",
+      "Bản đồ khám phá không phải công cụ đo lường chính xác, chỉ cung cấp định hướng sơ bộ.",
+      "Sử dụng hình minh họa hoặc ảnh prototype để làm rõ vị trí trên bản đồ."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "prototype_to_test": {
+    "title": "Prototype to Test",
+    "phase": "Prototype",
+    "short": "Công cụ dùng để tạo ra các nguyên mẫu với mục đích kiểm tra các giả thuyết, ý tưởng và giải pháp thiết kế trước khi triển khai chúng ở quy mô lớn.",
+    "definition": "Prototype to Test là một công cụ trong Design Thinking được sử dụng để tạo ra các nguyên mẫu (prototypes) với mục đích kiểm tra các giả thuyết, ý tưởng, và giải pháp thiết kế trước khi triển khai chúng ở quy mô lớn. Các prototype này có thể có độ phân giải thấp (lo-fi) hoặc cao (hi-fi), tùy thuộc vào giai đoạn thử nghiệm.",
+    "goals": [
+      "Hãy để người dùng trải nghiệm ý tưởng và quan sát cách họ tương tác với prototype.",
+      "Làm sâu sắc thêm hiểu biết về người dùng tiềm năng.",
+      "Xác thực nhu cầu và xem xét lại các giả định.",
+      "Thu thập phản hồi về các khía cạnh khác nhau của tính mong muốn, khả thi và tính thực tiễn."
+    ],
+    "howto": [
+      "Bước 1: Trước khi tạo prototype, chúng ta cần tự hỏi mình những hiểu biết nào muốn thu được và tại sao lại muốn thực hiện thí nghiệm. Do đó, cần phải hình thành các giả định cần thử nghiệm và cách thức thực hiện thí nghiệm.",
+      "Bước 2: Suy nghĩ về cách mà việc tương tác với prototype sẽ trở thành một trải nghiệm thú vị cho người dùng (người thử nghiệm) và làm thế nào để thí nghiệm mang lại những hiểu biết mới.",
+      "Bước 3: Xác định mức độ chi tiết và những gì cụ thể cần thực hiện. Định nghĩa các prototype khác nhau cần xây dựng. Thường thì sẽ có ích khi nghĩ về các phương án thay thế và sau đó lựa chọn một phương án.",
+      "Bước 4: Chọn một phương án và phác thảo thí nghiệm nếu cần thiết. Prototype có độ phân giải thấp tập trung vào những hiểu biết về nhu cầu, tính thực tiễn và tính năng, thường được sử dụng trong giai đoạn phân tán. Prototype có độ phân giải cao tập trung vào tính khả thi và lợi nhuận. Có nhiều loại prototype khác nhau. Tùy thuộc vào vật liệu và bối cảnh của ý tưởng, có thể sử dụng mock-ups, storyboards, scenography hoặc Wizard of Oz prototypes."
+    ],
+    "tips": [
+      "Lo-Fi vs Hi-Fi Prototypes: Độ phân giải càng cao, chúng ta càng nhận được ít phản hồi về tính mong muốn và tính năng. Độ phân giải thấp mang lại phản hồi trung thực hơn, vì vậy nên xây dựng prototype từ các vật liệu đơn giản.",
+      "Dễ dàng trở nên yêu thích prototype đã tạo ra, nhưng chúng ta cần duy trì sự khách quan và tiếp tục tìm kiếm phản hồi trung thực.",
+      "Không nên dành quá nhiều thời gian vào prototyping, vì điều này sẽ tự động tăng độ phân giải hoặc làm quá tải prototype với nhiều chức năng.",
+      "Mỗi prototype độ phân giải thấp chỉ nên thực hiện từ một đến hai chức năng.",
+      "Thời điểm thử nghiệm prototype độ phân giải thấp là khi bạn cảm thấy hơi ngại khi trình bày prototype đó.",
+      "Lấy cảm hứng từ các Prototype khác: Có nhiều vật liệu có thể sử dụng, nhưng nguồn cảm hứng tốt nhất đến từ các prototype khác.",
+      "Mặc dù không nên giải thích prototype, nhưng thường cần cung cấp ngữ cảnh cho người dùng về mục đích thiết kế.",
+      "Để duy trì phương pháp “show, don’t tell”, hãy tách biệt việc giải thích ngữ cảnh và việc thử nghiệm."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "service_blueprint": {
+    "title": "Service Blueprint",
+    "phase": "Prototype",
+    "short": "Công cụ dùng để mô tả chi tiết các quy trình và tương tác trong một dịch vụ, giúp tối ưu hóa trải nghiệm khách hàng.",
+    "definition": "Service Blueprint là một công cụ trong Design Thinking dùng để mô tả chi tiết các quy trình và tương tác trong một dịch vụ. Nó giúp hình dung và phân tích các yếu tố cấu thành dịch vụ, từ các hành động của khách hàng đến các hoạt động hỗ trợ phía sau hậu trường. Bản đồ dịch vụ cung cấp cái nhìn tổng thể về cách dịch vụ hoạt động, giúp nhóm xác định các điểm tiếp xúc, cải thiện quy trình và tối ưu hóa trải nghiệm của khách hàng.",
+    "goals": [
+      "Mở rộng bản đồ hành trình khách hàng bằng cách tích hợp các công nghệ hỗ trợ, dữ liệu và các tương tác của khách hàng trong mỗi giai đoạn của 'hành trình'.",
+      "Giải quyết các vấn đề chính trong việc phát triển sản phẩm hoặc dịch vụ mới, ví dụ, liệu dịch vụ có đáp ứng đầy đủ nhu cầu của khách hàng hay tất cả các vấn đề của họ đã được giải quyết.",
+      "Tiến hành trực quan hóa các tương tác với khách hàng ở các cấp độ khác nhau (ví dụ: front stage, back stage, các quy trình hỗ trợ).",
+      "Xác định các chỉ số hiệu suất chính (KPIs) về chất lượng và thời gian của các tương tác."
+    ],
+    "howto": [
+      "Bước 1: Tìm một bức tường lớn và dán một tờ giấy dài lên đó. Vẽ các đường (ví dụ: đường phân biệt tầm nhìn) và bắt đầu điền các bước và quy trình bằng Post-its. Bắt đầu với các khối lớn (hành động và điểm tiếp xúc).",
+      "Bước 2: Bao gồm tình trạng hiện tại của các dịch vụ hiện có. Tạo một mô hình quy trình sơ bộ để thiết kế các quy trình mới. Các vấn đề và lỗi được xác định bằng các chấm màu hoặc Post-its.",
+      "Bước 3: Tìm kiếm giải pháp cùng với nhóm để loại bỏ các nguồn gốc lỗi, tinh giản quy trình và tạo ra trải nghiệm khách hàng tích cực. Sử dụng video, hình ảnh, phác thảo và Post-its.",
+      "Bước 4: Phân chia các mục mở thành công việc nhóm hoặc làm việc riêng. Bằng cách làm việc cùng nhau và sử dụng phương pháp time-boxing, kết quả sẽ đạt được nhanh hơn.",
+      "Bước 5: Tích hợp các kết quả phụ từ các nhóm vào bản đồ dịch vụ. Sau khi bản đồ dịch vụ mới được hoàn thiện đầy đủ, các yếu tố riêng lẻ cũng như cái nhìn tổng thể có thể được thử nghiệm, cải thiện và triển khai cuối cùng."
+    ],
+    "tips": [
+      "Extensibility and Haptics: Bản đồ dịch vụ có thể được mở rộng với các thuộc tính như KPIs về thời gian, chất lượng, tài chính. Sử dụng ảnh và video giúp hình dung tình huống rõ ràng hơn.",
+      "Dịch vụ có thể được thử nghiệm như một 'vở kịch' để dễ dàng đặt mình vào vị trí của khách hàng và nhà cung cấp.",
+      "Trigger Questions: Các hành động điển hình bao gồm thu hút sự chú ý, quyết định, mua, sử dụng, v.v.",
+      "Câu hỏi để làm rõ: Quy trình lý tưởng là gì? Những bước nào có thể bỏ qua? Làm sao để đơn giản hóa công việc và cải thiện nhận thức khách hàng?",
+      "Stumbling Blocks: Bản đồ dịch vụ cần không gian lớn và thời gian. Xác định rõ mục tiêu từ đầu để tránh lạc trong quá trình."
+    ],
+    "time": "long",
+    "size_group": "large (6+)"
+  },
+  "mvp": {
+    "title": "MVP (Minimum Viable Product)",
+    "phase": "Prototype",
+    "short": "Phiên bản tối thiểu của sản phẩm, đủ để cung cấp giá trị cho người dùng và thu thập phản hồi.",
+    "definition": "MVP (Minimum Viable Product) là phiên bản tối thiểu của một sản phẩm có đầy đủ các tính năng cần thiết để có thể cung cấp giá trị cho người dùng, đồng thời cho phép nhóm phát triển thu thập phản hồi từ khách hàng với mức chi phí và thời gian tối thiểu. Mục đích của MVP là kiểm tra giả thuyết về sản phẩm và nhu cầu thị trường mà không phải đầu tư quá nhiều nguồn lực vào việc phát triển một sản phẩm hoàn chỉnh ngay từ đầu.",
+    "goals": [
+      "Xác định sớm xem nhu cầu cơ bản đã được đáp ứng và liệu sản phẩm có thu hút sự quan tâm trên thị trường hay không.",
+      "Thực hiện kiểm tra lặp lại để xác định liệu sản phẩm tối thiểu có đáp ứng nhu cầu người dùng và cần cải tiến những gì.",
+      "Thu thập phản hồi phản hồi từ người dùng để đánh giá mức độ cầu đối với sản phẩm trước khi phát triển thêm chi tiết và tính năng.",
+      "Giảm thiểu rủi ro khi đầu tư vào một giải pháp mà thị trường có ít nhu cầu, từ đó tiết kiệm thời gian, tiền bạc và năng lượng."
+    ],
+    "howto": [
+      "Bước 1: Luôn tập trung vào một MVP duy nhất (không làm nhiều MVP cùng lúc) và mô tả tình huống ban đầu, bao gồm persona, ba vấn đề và thách thức lớn nhất, hành trình khách hàng và các use case liên quan.",
+      "Bước 2: Đảm bảo đội ngũ thiết kế hiểu rõ tầm nhìn sản phẩm và phạm vi chức năng. Ưu tiên và tập trung vào các chức năng cốt lõi khi phát triển MVP, mở rộng chiều rộng và chiều sâu chức năng dần dần (MVP hình chữ T).",
+      "Bước 3: Xác định ba tính năng chính cần thử nghiệm trong các vòng lặp tiếp theo của MVP.",
+      "Bước 4: Lập kế hoạch xây dựng MVP, chú ý đến chi phí và tiến độ. Nếu kế hoạch tối ưu hóa việc học, xác định các tiêu chí đo lường và triển khai MVP.",
+      "Bước 5: Thử nghiệm MVP với người dùng/khách hàng tiềm năng trong bối cảnh thực tế và thu thập phản hồi cần thiết. Kết quả phải có thể đo lường được.",
+      "Bước 6: Tóm tắt những bài học từ các vòng lặp và cải thiện MVP từng bước. Nếu MVP thất bại, đừng thất vọng, vì mỗi vòng lặp đều mang lại bài học quý giá.",
+      "Bước 7: Tóm tắt các phát hiện tổng thể từ các vòng lặp. Liệu tầm nhìn hoặc chiến lược có cần điều chỉnh không?"
+    ],
+    "tips": [
+      "Đối với việc xây dựng MVP, quy tắc 80/20 là một thước đo tốt: 80% giá trị sản phẩm có thể được trình bày cho người dùng chỉ với 20% công sức phát triển.",
+      "Giải pháp vấn đề nên đi đôi với chi phí thấp và ít tốn thời gian.",
+      "Trước tiên, tìm một giải pháp tốt cho các trường hợp tiêu chuẩn trước khi chuyển sang các trường hợp phức tạp. Cốt lõi của ý tưởng giải pháp mới là điều quan trọng.",
+      "Hạn chế các thử nghiệm sơ bộ! Trình bày sản phẩm cho các đồng nghiệp chưa biết về nó. Nếu mọi người đều đặt ra cùng một câu hỏi, giá trị của sản phẩm vẫn chưa rõ ràng như nó nên có.",
+      "Các đội hình T-shaped thường phát triển một MVP cũng mang tính T-shaped."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "testing_sheet": {
+    "title": "Testing sheet",
+    "phase": "Test",
+    "short": "Biểu mẫu ghi lại phản hồi và quan sát trong quá trình thử nghiệm prototype.",
+    "definition": "Testing Sheet là một công cụ trong Design Thinking dùng để ghi lại có hệ thống các phản hồi, quan sát và kết quả từ các buổi thử nghiệm prototype. Biểu mẫu này giúp nhóm tổ chức dữ liệu thu thập được từ người dùng, từ đó rút ra insight để cải thiện giải pháp.",
+    "goals": [
+      "Ghi nhận insight từ phản hồi một cách có tổ chức.",
+      "Xác định các điểm mạnh, điểm yếu và cơ hội cải thiện.",
+      "Hỗ trợ nhóm tổng hợp dữ liệu để đưa ra quyết định."
+    ],
+    "howto": [
+      "Chuẩn bị biểu mẫu với các cột: hành động, phản hồi, cảm xúc, vấn đề, đề xuất.",
+      "Trong buổi thử nghiệm, ghi lại chi tiết các tương tác.",
+      "Quan sát ngôn ngữ cơ thể, ghi chú phản hồi bất ngờ.",
+      "Sau thử nghiệm, nhóm thảo luận và điền thêm insight.",
+      "Tổng hợp dữ liệu để xác định thay đổi cần thiết."
+    ],
+    "tips": [
+      "Ghi chú nhanh, tránh diễn giải ngay lập tức.",
+      "Kết hợp với Emotional Response Cards để ghi nhận cảm xúc.",
+      "Sử dụng như tài liệu tham khảo để so sánh các vòng thử nghiệm."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "feedback_capture_grid": {
+    "title": "Feedback capture grid",
+    "phase": "Test",
+    "short": "Lưới 4 ô để phân loại phản hồi theo các tiêu chí: tích cực, tiêu cực, câu hỏi, ý tưởng.",
+    "definition": "Feedback Capture Grid là một công cụ trực quan trong Design Thinking, sử dụng lưới 4 ô để tổ chức phản hồi từ người dùng sau khi thử nghiệm prototype.",
+    "goals": [
+      "Tổ chức phản hồi rõ ràng và có cấu trúc.",
+      "Xác định nhanh điểm mạnh và điểm yếu.",
+      "Khơi gợi ý tưởng mới từ phản hồi.",
+      "Tạo cơ sở để cải thiện thiết kế."
+    ],
+    "howto": [
+      "Vẽ lưới 4 ô: Thích, Cải thiện, Câu hỏi, Ý tưởng.",
+      "Mời ghi phản hồi lên Post-its và dán vào ô phù hợp.",
+      "Thảo luận để phân loại và làm rõ phản hồi.",
+      "Tổng hợp insight để lập kế hoạch cải thiện."
+    ],
+    "tips": [
+      "Khuyến khích phản hồi cụ thể, tránh chung chung.",
+      "Sử dụng màu sắc khác nhau cho Post-its.",
+      "Kết hợp với I Like/I Wish/I Wonder để mở rộng."
+    ],
+    "time": "short",
+    "size_group": "small (2-5)"
+  },
+  "powerful_questions": {
+    "title": "Powerful questions for experience testing",
+    "phase": "Test",
+    "short": "Danh sách câu hỏi mở để khai thác trải nghiệm và phản hồi sâu sắc từ người dùng.",
+    "definition": "Powerful Questions for Experience Testing là bộ câu hỏi mở được thiết kế để khai thác phản hồi sâu sắc từ người dùng trong quá trình thử nghiệm prototype.",
+    "goals": [
+      "Thu thập insight sâu về trải nghiệm và cảm xúc.",
+      "Xác định nhu cầu ẩn hoặc vấn đề không rõ ràng.",
+      "Hỗ trợ nhóm cải thiện dựa trên phản hồi chất lượng."
+    ],
+    "howto": [
+      "Chuẩn bị danh sách câu hỏi mở.",
+      "Đặt câu hỏi tự nhiên, khuyến khích chia sẻ câu chuyện.",
+      "Ghi chú hoặc ghi âm, chú ý ngôn ngữ cơ thể.",
+      "Phân tích để tìm insight và mẫu hành vi."
+    ],
+    "tips": [
+      "Không dẫn dắt hoặc áp đặt câu trả lời.",
+      "Sử dụng 5x Why để đào sâu lý do.",
+      "Kết hợp với Empathy Map để ghi cảm xúc."
+    ],
+    "time": "short",
+    "size_group": "solo"
+  },
+  "solution_interview": {
+    "title": "Solution interview",
+    "phase": "Test",
+    "short": "Phỏng vấn người dùng để xác nhận giá trị và tính khả thi của giải pháp/prototype.",
+    "definition": "Solution Interview là một công cụ trong Design Thinking, sử dụng các cuộc phỏng vấn có cấu trúc với người dùng để xác nhận giá trị, tính khả thi và tính mong muốn của một giải pháp hoặc prototype.",
+    "goals": [
+      "Xác nhận giải pháp đáp ứng nhu cầu người dùng.",
+      "Thu thập phản hồi cụ thể để cải thiện.",
+      "Hiểu nhận thức giá trị so với lựa chọn thay thế."
+    ],
+    "howto": [
+      "Chuẩn bị guide tập trung vào trải nghiệm, giá trị, khó khăn.",
+      "Tìm persona và sắp xếp phỏng vấn thực tế.",
+      "Giới thiệu prototype, để thử nghiệm trước phỏng vấn.",
+      "Đặt câu hỏi mở và theo dõi bằng 'Tại sao?'.",
+      "Ghi âm, ghi chú, tổng hợp insight."
+    ],
+    "tips": [
+      "Tạo không khí thoải mái để chia sẻ trung thực.",
+      "Tránh bảo vệ prototype; tập trung học từ phản hồi.",
+      "Kết hợp với Feedback Capture Grid để tổ chức."
+    ],
+    "time": "medium",
+    "size_group": "solo"
+  },
+  "usability_testing": {
+    "title": "Structured usability testing",
+    "phase": "Test",
+    "short": "Kiểm tra khả năng sử dụng của prototype để đánh giá tính hiệu quả và trải nghiệm người dùng.",
+    "definition": "Structured Usability Testing là một công cụ dùng để đánh giá khả năng sử dụng của một prototype hoặc sản phẩm thông qua các kịch bản thử nghiệm có cấu trúc.",
+    "goals": [
+      "Đánh giá tính dễ sử dụng và hiệu quả.",
+      "Xác định vấn đề hoặc rào cản trải nghiệm.",
+      "Thu thập dữ liệu định lượng và định tính."
+    ],
+    "howto": [
+      "Chuẩn bị kịch bản với nhiệm vụ cụ thể.",
+      "Tuyển chọn persona và giải thích mục tiêu.",
+      "Quan sát thực hiện, ghi thời gian, lỗi, phản hồi.",
+      "Đặt câu hỏi sau để hiểu cảm nhận khó khăn.",
+      "Tổng hợp, xác định vấn đề, đề xuất cải thiện."
+    ],
+    "tips": [
+      "Giới hạn nhiệm vụ để tránh quá tải.",
+      "Ghi hình để phân tích chi tiết.",
+      "Kết hợp với Testing Sheet để ghi dữ liệu."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "ab_testing": {
+    "title": "A/B testing",
+    "phase": "Test",
+    "short": "So sánh hai phiên bản của giải pháp để xác định phiên bản nào hoạt động tốt hơn.",
+    "definition": "A/B Testing là một công cụ dùng để so sánh hai phiên bản khác nhau (A và B) của một prototype, sản phẩm, hoặc tính năng nhằm xác định phiên bản nào mang lại kết quả tốt hơn dựa trên các chỉ số cụ thể (ví dụ: tỷ lệ nhấp, thời gian sử dụng).",
+    "goals": [
+      "Xác định phiên bản tối ưu dựa trên dữ liệu.",
+      "Giảm rủi ro triển khai bằng thử nghiệm nhỏ.",
+      "Thu thập dữ liệu định lượng hỗ trợ quyết định."
+    ],
+    "howto": [
+      "Xác định mục tiêu và metrics.",
+      "Tạo A và B với khác biệt rõ ràng.",
+      "Phân bổ ngẫu nhiên người dùng hai nhóm.",
+      "Triển khai bằng công cụ như Google Optimize.",
+      "Phân tích chọn phiên bản tốt hơn."
+    ],
+    "tips": [
+      "Thay đổi một yếu tố tại thời điểm.",
+      "Đảm bảo mẫu đủ lớn cho thống kê.",
+      "Kết hợp Solution Interview hiểu hành vi."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "i_like_i_wish_i_wonder": {
+    "title": "I like / I wish / I wonder",
+    "phase": "Reflect",
+    "short": "Công cụ phản ánh nhóm để thu thập cảm nhận tích cực, mong muốn cải thiện và câu hỏi mở.",
+    "definition": "I Like / I Wish / I Wonder là một công cụ dùng để thu thập phản hồi từ nhóm hoặc stakeholders sau một giai đoạn dự án, thử nghiệm, hoặc workshop.",
+    "goals": [
+      "Tạo không gian chia sẻ phản hồi cởi mở.",
+      "Xác định điểm mạnh và cần cải thiện.",
+      "Khơi gợi câu hỏi hoặc ý tưởng mới."
+    ],
+    "howto": [
+      "Vẽ lưới 3 cột: I Like, I Wish, I Wonder.",
+      "Mời viết phản hồi Post-its dán cột phù hợp.",
+      "Thảo luận làm rõ, đặc biệt I Wish và I Wonder.",
+      "Tổng hợp insight lập kế hoạch hành động."
+    ],
+    "tips": [
+      "Khuyến khích phản hồi cụ thể.",
+      "Tạo môi trường an toàn chia sẻ trung thực.",
+      "Sử dụng cuối mỗi workshop hoặc giai đoạn."
+    ],
+    "time": "short",
+    "size_group": "large (6+)"
+  },
+  "retrospective_sailboat": {
+    "title": "Retrospective sailboat",
+    "phase": "Reflect",
+    "short": "Công cụ phản ánh nhóm sử dụng hình ảnh con thuyền để đánh giá tiến độ và định hướng tương lai.",
+    "definition": "Retrospective Sailboat là một công cụ trực quan dùng hình ảnh con thuyền giúp nhóm nhìn lại quá trình làm việc, đánh giá thúc đẩy (gió), cản trở (mỏ neo), rủi ro (đá ngầm), mục tiêu (đảo).",
+    "goals": [
+      "Đánh giá thành công và cần cải thiện dự án.",
+      "Xác định rủi ro tiềm ẩn và cơ hội tương lai.",
+      "Tăng cường đồng thuận và động lực nhóm."
+    ],
+    "howto": [
+      "Vẽ con thuyền: Gió (thúc đẩy), Mỏ neo (cản trở), Đá ngầm (rủi ro), Đảo (mục tiêu).",
+      "Mời viết ý kiến Post-its dán phần tương ứng.",
+      "Thảo luận từng phần hiểu rõ yếu tố.",
+      "Xác định hành động cụ thể tiến tới mục tiêu."
+    ],
+    "tips": [
+      "Hình ảnh trực quan làm thảo luận sinh động.",
+      "Tập trung hành động từ Mỏ neo và Đá ngầm.",
+      "Kết hợp I Like/I Wish/I Wonder làm rõ cảm xúc."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "create_a_pitch": {
+    "title": "Create a pitch",
+    "phase": "Reflect",
+    "short": "Tạo bài thuyết trình ngắn gọn để truyền đạt ý tưởng hoặc giải pháp tới stakeholders.",
+    "definition": "Create a Pitch là một công cụ dùng để xây dựng bài thuyết trình ngắn gọn, hấp dẫn nhằm truyền đạt ý tưởng, giải pháp hoặc sản phẩm tới stakeholders hoặc nhà đầu tư.",
+    "goals": [
+      "Truyền đạt giá trị giải pháp rõ ràng thuyết phục.",
+      "Thu hút ủng hộ hoặc đầu tư từ stakeholders.",
+      "Tóm tắt quá trình Design Thinking và kết quả."
+    ],
+    "howto": [
+      "Xác định đối tượng pitch (stakeholders, đầu tư).",
+      "Tạo cấu trúc: Vấn đề → Giải pháp → Lợi ích → Kêu gọi hành động.",
+      "Sử dụng storytelling làm pitch sinh động, kết hợp dữ liệu ví dụ.",
+      "Chuẩn bị slide hoặc bảng trình bày trực quan, giới hạn 3-5 phút.",
+      "Tập luyện pitch nhóm thu thập phản hồi trước trình bày."
+    ],
+    "tips": [
+      "Giữ pitch ngắn gọn, tập trung giá trị cốt lõi.",
+      "Sử dụng hình ảnh hoặc prototype minh họa ý tưởng.",
+      "Dự đoán câu hỏi stakeholders chuẩn bị trả lời."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  },
+  "lean_canvas": {
+    "title": "Lean canvas",
+    "phase": "Reflect",
+    "short": "Bản đồ một trang để lập kế hoạch và xác thực mô hình kinh doanh cho giải pháp.",
+    "definition": "Lean Canvas là một công cụ chiến lược trong Design Thinking, được phát triển bởi Ash Maurya, dùng để lập kế hoạch và xác thực mô hình kinh doanh trên một trang duy nhất.",
+    "goals": [
+      "Tóm tắt mô hình kinh doanh ngắn gọn rõ ràng.",
+      "Xác định giả định chính và kế hoạch xác thực.",
+      "Hỗ trợ nhóm đánh giá khả thi tiềm năng thương mại."
+    ],
+    "howto": [
+      "Sử dụng template 9 ô: Problem, Solution, Unique Value Proposition, Unfair Advantage, Customer Segments, Channels, Revenue Streams, Cost Structure, Key Metrics.",
+      "Bắt đầu xác định 3 vấn đề lớn khách hàng giải pháp tương ứng.",
+      "Điền ô khác dựa dữ liệu Understand và Test.",
+      "Thảo luận xác định giả định rủi ro cao cần kiểm tra.",
+      "Lập kế hoạch thử nghiệm xác thực mô hình."
+    ],
+    "tips": [
+      "Tập trung vấn đề khách hàng trước nghĩ giải pháp.",
+      "Cập nhật Lean Canvas thường xuyên dựa phản hồi.",
+      "Sử dụng Post-its dễ dàng điều chỉnh ô thảo luận."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "lessons_learned": {
+    "title": "Lessons learned",
+    "phase": "Reflect",
+    "short": "Tổng hợp bài học từ dự án để cải thiện quy trình và định hướng tương lai.",
+    "definition": "Lessons Learned là một công cụ trong Design Thinking dùng để tổng hợp các bài học kinh nghiệm từ một dự án, workshop, hoặc giai đoạn cụ thể.",
+    "goals": [
+      "Ghi nhận thành công thất bại học hỏi từ chúng.",
+      "Cải thiện quy trình làm việc hợp tác nhóm tương lai.",
+      "Chia sẻ kiến thức các nhóm dự án khác."
+    ],
+    "howto": [
+      "Tập hợp nhóm chuẩn bị bảng trắng cột: Thành công, Thách thức, Bài học, Hành động tương lai.",
+      "Mời thành viên viết ý kiến Post-its dán cột phù hợp.",
+      "Thảo luận làm rõ bài học xác định hành động cụ thể.",
+      "Lưu trữ tài liệu Lessons Learned tham khảo dự án sau."
+    ],
+    "tips": [
+      "Tạo môi trường cởi mở nhóm chia sẻ thành công thất bại.",
+      "Tập trung hành động cụ thể thay chỉ liệt kê vấn đề.",
+      "Kết hợp Retrospective Sailboat trực quan hóa bài học."
+    ],
+    "time": "medium",
+    "size_group": "large (6+)"
+  },
+  "roadmap_impl": {
+    "title": "Road map for implementation",
+    "phase": "Reflect",
+    "short": "Lập kế hoạch chi tiết các bước triển khai giải pháp trong ngắn hạn và dài hạn.",
+    "definition": "Road Map for Implementation là một công cụ trong Design Thinking dùng để lập kế hoạch chi tiết các bước triển khai một giải pháp hoặc sản phẩm, bao gồm các mốc thời gian, nhiệm vụ, và trách nhiệm.",
+    "goals": [
+      "Tạo lộ trình rõ ràng triển khai giải pháp sản phẩm.",
+      "Phân bổ trách nhiệm tài nguyên từng giai đoạn.",
+      "Xác định mốc quan trọng tiêu chí thành công."
+    ],
+    "howto": [
+      "Vẽ timeline giấy lớn bảng trắng, chia ngắn hạn (0-3 tháng), trung hạn (3-12 tháng), dài hạn (1-3 năm).",
+      "Liệt kê nhiệm vụ chính (phát triển sản phẩm, thử nghiệm, ra mắt) gán trách nhiệm.",
+      "Xác định mốc quan trọng (milestones) chỉ số đo lường (KPIs).",
+      "Thảo luận nhóm đảm bảo lộ trình khả thi đồng thuận.",
+      "Cập nhật roadmap thường xuyên dựa tiến độ phản hồi."
+    ],
+    "tips": [
+      "Liên kết roadmap Lean Canvas đảm bảo phù hợp mô hình kinh doanh.",
+      "Sử dụng màu sắc biểu tượng làm rõ loại nhiệm vụ.",
+      "Dự trù thời gian rủi ro thay đổi bất ngờ."
+    ],
+    "time": "long",
+    "size_group": "small (2-5)"
+  },
+  "growth_scale_funnel": {
+    "title": "Problem to growth & scale innovation funnel",
+    "phase": "Reflect",
+    "short": "Công cụ lập kế hoạch chuyển đổi từ vấn đề sang tăng trưởng và mở rộng quy mô.",
+    "definition": "Problem to Growth & Scale Innovation Funnel là một công cụ trong Design Thinking giúp nhóm lập kế hoạch chuyển đổi từ việc xác định vấn đề sang phát triển và mở rộng quy mô giải pháp.",
+    "goals": [
+      "Tạo lộ trình từ vấn đề ban đầu đến tăng trưởng quy mô lớn.",
+      "Xác định các giai đoạn chính trong hành trình phát triển giải pháp.",
+      "Đảm bảo giải pháp được xác thực và tối ưu trước khi mở rộng."
+    ],
+    "howto": [
+      "Vẽ phễu với các giai đoạn: Problem Discovery, Solution Validation, Early Adoption, Growth, Scale.",
+      "Ghi lại các hoạt động chính trong mỗi giai đoạn (ví dụ: phỏng vấn trong Discovery, MVP trong Validation).",
+      "Xác định chỉ số đo lường (KPIs) cho từng giai đoạn (ví dụ: số lượng người dùng, doanh thu).",
+      "Thảo luận nhóm để xác định các bước tiếp theo và phân bổ trách nhiệm.",
+      "Cập nhật phễu dựa trên dữ liệu thực tế từ thử nghiệm và thị trường."
+    ],
+    "tips": [
+      "Liên kết với Lean Canvas để xác định các giả định cần xác thực trong giai đoạn đầu.",
+      "Tập trung vào việc xác thực nhu cầu trước khi đầu tư vào mở rộng.",
+      "Sử dụng hình ảnh trực quan để truyền đạt phễu tới stakeholders."
+    ],
+    "time": "medium",
+    "size_group": "small (2-5)"
+  }
+}
